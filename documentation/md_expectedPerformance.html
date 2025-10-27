@@ -445,14 +445,14 @@ IBM Power9 CPU</h2>
           }
 
           function renderBenchSet(name, benchSet, main) {
+            const setElem = document.createElement('div');
+            setElem.className = 'benchmark-set';
+            main.appendChild(setElem);
+
             const nameElem = document.createElement('h1');
             nameElem.className = 'benchmark-title';
             nameElem.textContent = name;
             setElem.appendChild(nameElem);
-
-            const setElem = document.createElement('div');
-            setElem.className = 'benchmark-set';
-            main.appendChild(setElem);
 
             const graphsElem = document.createElement('div');
             graphsElem.className = 'benchmark-graphs';
