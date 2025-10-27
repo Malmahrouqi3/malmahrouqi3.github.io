@@ -2,7 +2,7 @@ window.BENCHMARK_DATA = {
   "lastUpdate": 1761540031674,
   "repoUrl": "https://github.com/Malmahrouqi3/MFC-mo2",
   "entries": {
-    "C++ Benchmark": [
+    "Continuous Benchmark": [
       {
         "commit": {
           "author": {
@@ -16,7 +16,7 @@ window.BENCHMARK_DATA = {
             "username": "web-flow"
           },
           "distinct": true,
-          "id": "05149a7ce7bdd1e50a349d7821e26be11dd06402",
+          "id": "v5.0.0",
           "message": "Change GitHub token reference in report.yml",
           "timestamp": "2025-10-27T00:38:16-04:00",
           "tree_id": "956ab98a2134bfb0c83c090bc92993b4b094fdad",
