@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761546795542,
+  "lastUpdate": 1761682019607,
   "repoUrl": "https://github.com/Malmahrouqi3/MFC-mo2",
   "entries": {
     "Continuous Benchmarking": [
@@ -100,6 +100,58 @@ window.BENCHMARK_DATA = {
             "value": 32724,
             "unit": "undefined/iter",
             "extra": "iterations: 21393\ncpu: 33355 undefined\nthreads: undefined"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Mohammed S. Al-Mahrouqi",
+            "username": "Malmahrouqi3",
+            "email": "145478595+Malmahrouqi3@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "ece901a5d18fed6bb10c3d7829b88d952d3d445b",
+          "message": "Add time_unit and threads fields to report.json",
+          "timestamp": "2025-10-28T20:04:43Z",
+          "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/ece901a5d18fed6bb10c3d7829b88d952d3d445b"
+        },
+        "date": 1761682017907,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "5eq_rk3_weno3_hllc",
+            "value": 29275,
+            "unit": "s/iter",
+            "extra": "iterations: 94877\ncpu: undefined s\nthreads: 1"
+          },
+          {
+            "name": "hypo_hll",
+            "value": 32317,
+            "unit": "s/iter",
+            "extra": "iterations: 21609\ncpu: undefined s\nthreads: 1"
+          },
+          {
+            "name": "ibm",
+            "value": 32317,
+            "unit": "s/iter",
+            "extra": "iterations: 21609\ncpu: undefined s\nthreads: 1"
+          },
+          {
+            "name": "igr",
+            "value": 32317,
+            "unit": "s/iter",
+            "extra": "iterations: 21609\ncpu: undefined s\nthreads: 1"
+          },
+          {
+            "name": "viscous_weno5_sgb_acoustic",
+            "value": 32724,
+            "unit": "s/iter",
+            "extra": "iterations: 21393\ncpu: undefined s\nthreads: 1"
           }
         ]
       }
