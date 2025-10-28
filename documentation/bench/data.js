@@ -24,31 +24,31 @@ window.BENCHMARK_DATA = {
           {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
-            "unit": "undefined/iter",
+            "unit": "s",
             "extra": "iterations: 94877\ncpu: 29836 undefined\nthreads: undefined"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
-            "unit": "undefined/iter",
+            "unit": "s",
             "extra": "iterations: 21609\ncpu: 32429 undefined\nthreads: undefined"
           },
           {
             "name": "ibm",
             "value": 32317,
-            "unit": "undefined/iter",
+            "unit": "s",
             "extra": "iterations: 21609\ncpu: 32429 undefined\nthreads: undefined"
           },
           {
             "name": "igr",
             "value": 32317,
-            "unit": "undefined/iter",
+            "unit": "s",
             "extra": "iterations: 21609\ncpu: 32429 undefined\nthreads: undefined"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
-            "unit": "undefined/iter",
+            "unit": "s",
             "extra": "iterations: 21393\ncpu: 33355 undefined\nthreads: undefined"
           }
         ]
@@ -74,31 +74,31 @@ window.BENCHMARK_DATA = {
           {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
-            "unit": "undefined/iter",
+            "unit": "s",
             "extra": "iterations: 94877\ncpu: 29836 undefined\nthreads: undefined"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
-            "unit": "undefined/iter",
+            "unit": "s",
             "extra": "iterations: 21609\ncpu: 32429 undefined\nthreads: undefined"
           },
           {
             "name": "ibm",
             "value": 32317,
-            "unit": "undefined/iter",
+            "unit": "s",
             "extra": "iterations: 21609\ncpu: 32429 undefined\nthreads: undefined"
           },
           {
             "name": "igr",
             "value": 32317,
-            "unit": "undefined/iter",
+            "unit": "s",
             "extra": "iterations: 21609\ncpu: 32429 undefined\nthreads: undefined"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
-            "unit": "undefined/iter",
+            "unit": "s",
             "extra": "iterations: 21393\ncpu: 33355 undefined\nthreads: undefined"
           }
         ]
@@ -126,31 +126,31 @@ window.BENCHMARK_DATA = {
           {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
-            "unit": "s/iter",
+            "unit": "s",
             "extra": "iterations: 94877\ncpu: undefined s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
-            "unit": "s/iter",
+            "unit": "s",
             "extra": "iterations: 21609\ncpu: undefined s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
-            "unit": "s/iter",
+            "unit": "s",
             "extra": "iterations: 21609\ncpu: undefined s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
-            "unit": "s/iter",
+            "unit": "s",
             "extra": "iterations: 21609\ncpu: undefined s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
-            "unit": "s/iter",
+            "unit": "s",
             "extra": "iterations: 21393\ncpu: undefined s\nthreads: 1"
           }
         ]
@@ -178,31 +178,31 @@ window.BENCHMARK_DATA = {
           {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
-            "unit": "s/iter",
+            "unit": "s",
             "extra": "iterations: 94877\ncpu: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
-            "unit": "s/iter",
+            "unit": "s",
             "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
-            "unit": "s/iter",
+            "unit": "s",
             "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
-            "unit": "s/iter",
+            "unit": "s",
             "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
-            "unit": "s/iter",
+            "unit": "s",
             "extra": "iterations: 21393\ncpu: 29275 s\nthreads: 1"
           }
         ]
