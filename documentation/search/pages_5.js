@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['getting_20started_0',['Getting Started',['../md_getting-started.html',1,'']]],
-  ['gpu_20parallelization_1',['GPU Parallelization',['../md_gpuParallelization.html',1,'']]]
+  ['files_0',['Case Files',['../md_case.html',1,'']]],
+  ['flow_20visualization_1',['Flow visualization',['../md_visualization.html',1,'']]]
 ];

@@ -2,7 +2,7 @@ var NAVTREEINDEX0 =
 {
 "index.html":[],
 "md_authors.html":[0],
-"md_bench_2index.html":[1],
+"md_bench.html":[1],
 "md_case.html":[2],
 "md_case.html#acoustic-source":[2,2,7],
 "md_case.html#acoustic-supports":[2,3,4],
