@@ -1,9 +1,10 @@
 https://Malmahrouqi3.github.io/
 https://Malmahrouqi3.github.io/documentation/
+https://Malmahrouqi3.github.io/documentation/continuousBenchmarks.html
 https://Malmahrouqi3.github.io/documentation/dir_a36c4719283424f51e58ca3678e5dea3.html
 https://Malmahrouqi3.github.io/documentation/doxygen_crawl.html
+https://Malmahrouqi3.github.io/documentation/expectedPerformance.html
 https://Malmahrouqi3.github.io/documentation/graph_legend.html
-https://Malmahrouqi3.github.io/documentation/group__performance.html
 https://Malmahrouqi3.github.io/documentation/md_authors.html
 https://Malmahrouqi3.github.io/documentation/md_bench_2bench.html
 https://Malmahrouqi3.github.io/documentation/md_case.html
@@ -20,7 +21,7 @@ https://Malmahrouqi3.github.io/documentation/md_running.html
 https://Malmahrouqi3.github.io/documentation/md_testing.html
 https://Malmahrouqi3.github.io/documentation/md_visualization.html
 https://Malmahrouqi3.github.io/documentation/pages.html
-https://Malmahrouqi3.github.io/documentation/topics.html
+https://Malmahrouqi3.github.io/documentation/performance.html
 https://Malmahrouqi3.github.io/post_process/
 https://Malmahrouqi3.github.io/post_process/annotated.html
 https://Malmahrouqi3.github.io/post_process/classes.html

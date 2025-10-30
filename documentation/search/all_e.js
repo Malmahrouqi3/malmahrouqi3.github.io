@@ -3,7 +3,7 @@ var searchData=
   ['facing_20step_202d_0',['Facing Step 2D',['../md_examples.html#autotoc_md89',1,'Backward Facing Step (2D)'],['../md_examples.html#autotoc_md73',1,'Forward Facing Step (2D)']]],
   ['fetching_20mfc_1',['Fetching MFC',['../md_getting-started.html#autotoc_md119',1,'']]],
   ['field_20setup_2',['10. Velocity Field Setup',['../md_case.html#autotoc_md24',1,'']]],
-  ['figure_20of_20merit_3a_20grind_20time_20performance_3',['Figure of merit: Grind time performance',['../group__performance.html#autotoc_md108',1,'']]],
+  ['figure_20of_20merit_3a_20grind_20time_20performance_3',['Figure of merit: Grind time performance',['../expectedPerformance.html#autotoc_md108',1,'']]],
   ['files_4',['Case Files',['../md_case.html',1,'']]],
   ['final_20condition_5',['Final Condition',['../md_examples.html#autotoc_md69',1,'Final Condition'],['../md_examples.html#autotoc_md79',1,'Final Condition'],['../md_examples.html#autotoc_md95',1,'Final Condition'],['../md_examples.html#autotoc_md106',1,'Final Condition']]],
   ['final_20condition_20and_20linear_20theory_6',['Final Condition and Linear Theory',['../md_examples.html#autotoc_md62',1,'Final Condition and Linear Theory'],['../md_examples.html#autotoc_md97',1,'Final Condition and Linear Theory']]],

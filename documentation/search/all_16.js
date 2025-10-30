@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['of_20merit_3a_20grind_20time_20performance_0',['Figure of merit: Grind time performance',['../group__performance.html#autotoc_md108',1,'']]],
+  ['of_20merit_3a_20grind_20time_20performance_0',['Figure of merit: Grind time performance',['../expectedPerformance.html#autotoc_md108',1,'']]],
   ['of_20primitive_20variables_1',['Analytical Definition of Primitive Variables',['../md_case.html#autotoc_md9',1,'']]],
-  ['on_20pace_20phoenix_2',['Remote Visualization on PACE Phoenix',['../md_visualization.html#autotoc_md171',1,'']]],
+  ['on_20pace_20phoenix_2',['Remote Visualization on PACE Phoenix',['../md_visualization.html#autotoc_md172',1,'']]],
   ['on_20running_20containers_3',['Details on Running Containers',['../md_docker.html#autotoc_md42',1,'']]],
   ['openacc_20options_4',['OpenACC Options',['../md_gpuParallelization.html#autotoc_md144',1,'Cray OpenACC Options'],['../md_gpuParallelization.html#autotoc_md147',1,'NVHPC OpenACC Options']]],
   ['openmp_20options_5',['NVHPC OpenMP Options',['../md_gpuParallelization.html#autotoc_md148',1,'']]],
@@ -12,5 +12,5 @@ var searchData=
   ['ordering_9',['Ordering',['../md_case.html#autotoc_md36',1,'Conservative Variables Ordering'],['../md_case.html#autotoc_md37',1,'Primitive Variables Ordering']]],
   ['osher_20problem_201d_10',['Shu-Osher problem (1D)',['../md_examples.html#autotoc_md65',1,'']]],
   ['output_11',['7. Formatted Output',['../md_case.html#autotoc_md20',1,'']]],
-  ['output_12',['Serial data output',['../md_visualization.html#autotoc_md170',1,'']]]
+  ['output_12',['Serial data output',['../md_visualization.html#autotoc_md171',1,'']]]
 ];

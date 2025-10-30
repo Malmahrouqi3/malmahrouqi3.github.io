@@ -27,6 +27,9 @@ var NAVTREE =
   [ "MFC", "index.html", [
     [ "Authors", "md_authors.html", null ],
     [ "bench", "md_bench_2bench.html", null ],
+    [ "Continuous Benchmarks", "continuousBenchmarks.html", [
+      [ "Continuous Benchmarks", "continuousBenchmarks.html#autotoc_md1", null ]
+    ] ],
     [ "Case Files", "md_case.html", [
       [ "Basic Skeleton", "md_case.html#autotoc_md3", null ],
       [ "(Optional) Accepting command line arguments", "md_case.html#autotoc_md4", null ],
@@ -170,6 +173,23 @@ var NAVTREE =
       ] ]
     ] ],
     [ "expectedPerformance", "md_expectedPerformance.html", null ],
+    [ "Expected Performance", "expectedPerformance.html", [
+      [ "Performance", "expectedPerformance.html#autotoc_md107", [
+        [ "Figure of merit: Grind time performance", "expectedPerformance.html#autotoc_md108", null ],
+        [ "Weak scaling", "expectedPerformance.html#autotoc_md109", [
+          [ "AMD MI250X GPU", "expectedPerformance.html#autotoc_md110", null ],
+          [ "NVIDIA V100 GPU", "expectedPerformance.html#autotoc_md111", null ],
+          [ "IBM Power9 CPU", "expectedPerformance.html#autotoc_md112", null ]
+        ] ],
+        [ "Strong scaling", "expectedPerformance.html#autotoc_md113", [
+          [ "NVIDIA V100 GPU", "expectedPerformance.html#autotoc_md114", [
+            [ "16M Grid Points", "expectedPerformance.html#autotoc_md115", null ],
+            [ "64M Grid Points", "expectedPerformance.html#autotoc_md116", null ]
+          ] ],
+          [ "IBM Power9 CPU", "expectedPerformance.html#autotoc_md117", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "Getting Started", "md_getting-started.html", [
       [ "Fetching MFC", "md_getting-started.html#autotoc_md119", null ],
       [ "Build Environment", "md_getting-started.html#autotoc_md120", null ],
@@ -204,41 +224,43 @@ var NAVTREE =
     ] ],
     [ "Papers", "md_papers.html", null ],
     [ "performance", "md_performance.html", null ],
+    [ "Performance", "performance.html", [
+      [ "Performance", "performance.html#autotoc_md151", null ]
+    ] ],
     [ "Documentation", "md_readme.html", [
-      [ "User Documentation", "md_readme.html#autotoc_md152", null ],
-      [ "Code/API Documentation", "md_readme.html#autotoc_md153", null ]
+      [ "User Documentation", "md_readme.html#autotoc_md153", null ],
+      [ "Code/API Documentation", "md_readme.html#autotoc_md154", null ]
     ] ],
     [ "References", "md_references.html", null ],
     [ "Running", "md_running.html", [
-      [ "Interactive Execution", "md_running.html#autotoc_md156", null ],
-      [ "Batch Execution", "md_running.html#autotoc_md157", [
-        [ "GPU Profiling", "md_running.html#autotoc_md158", [
-          [ "NVIDIA GPUs", "md_running.html#autotoc_md159", null ],
-          [ "AMD GPUs", "md_running.html#autotoc_md160", null ]
+      [ "Interactive Execution", "md_running.html#autotoc_md157", null ],
+      [ "Batch Execution", "md_running.html#autotoc_md158", [
+        [ "GPU Profiling", "md_running.html#autotoc_md159", [
+          [ "NVIDIA GPUs", "md_running.html#autotoc_md160", null ],
+          [ "AMD GPUs", "md_running.html#autotoc_md161", null ]
         ] ],
-        [ "Restarting Cases", "md_running.html#autotoc_md161", null ],
-        [ "Example Runs", "md_running.html#autotoc_md162", null ]
+        [ "Restarting Cases", "md_running.html#autotoc_md162", null ],
+        [ "Example Runs", "md_running.html#autotoc_md163", null ]
       ] ]
     ] ],
     [ "Testing", "md_testing.html", null ],
     [ "Flow visualization", "md_visualization.html", [
-      [ "Visualizing with VisIt", "md_visualization.html#autotoc_md169", null ],
-      [ "Serial data output", "md_visualization.html#autotoc_md170", null ],
-      [ "Remote Visualization on PACE Phoenix", "md_visualization.html#autotoc_md171", [
-        [ "Visualizing with Paraview", "md_visualization.html#autotoc_md167", null ],
-        [ "Visualizing data in cylindrical coordinates", "md_visualization.html#autotoc_md168", null ],
-        [ "Step 1: Setting up your Environment", "md_visualization.html#autotoc_md172", null ],
-        [ "Step 2: Customizing the script", "md_visualization.html#autotoc_md173", null ],
-        [ "Step 3: Running pace-paraview-server", "md_visualization.html#autotoc_md174", null ]
+      [ "Visualizing with VisIt", "md_visualization.html#autotoc_md170", null ],
+      [ "Serial data output", "md_visualization.html#autotoc_md171", null ],
+      [ "Remote Visualization on PACE Phoenix", "md_visualization.html#autotoc_md172", [
+        [ "Visualizing with Paraview", "md_visualization.html#autotoc_md168", null ],
+        [ "Visualizing data in cylindrical coordinates", "md_visualization.html#autotoc_md169", null ],
+        [ "Step 1: Setting up your Environment", "md_visualization.html#autotoc_md173", null ],
+        [ "Step 2: Customizing the script", "md_visualization.html#autotoc_md174", null ],
+        [ "Step 3: Running pace-paraview-server", "md_visualization.html#autotoc_md175", null ]
       ] ]
-    ] ],
-    [ "Topics", "topics.html", "topics" ]
+    ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"group__performance.html"
+"continuousBenchmarks.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
