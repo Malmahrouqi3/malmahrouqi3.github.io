@@ -1,7 +1,7 @@
 var searchData=
 [
   ['scaling_0',['Scaling',['../md_examples.html#autotoc_md59',1,'Strong Scaling'],['../md_examples.html#autotoc_md58',1,'Weak Scaling']]],
-  ['scaling_1',['scaling',['../md_expectedPerformance.html#autotoc_md113',1,'Strong scaling'],['../md_expectedPerformance.html#autotoc_md109',1,'Weak scaling']]],
+  ['scaling_1',['scaling',['../group__performance.html#autotoc_md113',1,'Strong scaling'],['../group__performance.html#autotoc_md109',1,'Weak scaling']]],
   ['scaling_20and_20performance_20test_2',['Scaling and Performance test',['../md_examples.html#autotoc_md57',1,'']]],
   ['schlieren_20at_20final_20time_3',['Numerical Schlieren at Final Time',['../md_examples.html#autotoc_md99',1,'']]],
   ['script_4',['Step 2: Customizing the script',['../md_visualization.html#autotoc_md173',1,'']]],
@@ -30,7 +30,7 @@ var searchData=
   ['stepping_27',['Stepping',['../md_case.html#autotoc_md19',1,'Adaptive Time-Stepping'],['../md_case.html#autotoc_md18',1,'Constant Time-Stepping']]],
   ['stirred_20reactor_28',['Perfectly Stirred Reactor',['../md_examples.html#autotoc_md77',1,'']]],
   ['strong_20scaling_29',['Strong Scaling',['../md_examples.html#autotoc_md59',1,'']]],
-  ['strong_20scaling_30',['Strong scaling',['../md_expectedPerformance.html#autotoc_md113',1,'']]],
+  ['strong_20scaling_30',['Strong scaling',['../group__performance.html#autotoc_md113',1,'']]],
   ['structure_31',['Tag Structure',['../md_docker.html#autotoc_md50',1,'']]],
   ['sub_20grid_20bubble_20models_32',['9. Sub-grid Bubble Models',['../md_case.html#autotoc_md21',1,'']]],
   ['suite_33',['Running the Test Suite',['../md_getting-started.html#autotoc_md123',1,'']]],

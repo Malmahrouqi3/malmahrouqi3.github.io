@@ -2,7 +2,7 @@ var searchData=
 [
   ['ibm_20bow_20shock_203d_0',['IBM Bow Shock (3D)',['../md_examples.html#autotoc_md105',1,'']]],
   ['ibm_20cfl_20dt_202d_1',['2D IBM CFL dt (2D)',['../md_examples.html#autotoc_md63',1,'']]],
-  ['ibm_20power9_20cpu_2',['IBM Power9 CPU',['../md_expectedPerformance.html#autotoc_md112',1,'IBM Power9 CPU'],['../md_expectedPerformance.html#autotoc_md117',1,'IBM Power9 CPU']]],
+  ['ibm_20power9_20cpu_2',['IBM Power9 CPU',['../group__performance.html#autotoc_md112',1,'IBM Power9 CPU'],['../group__performance.html#autotoc_md117',1,'IBM Power9 CPU']]],
   ['ic_20example_3',['2D Hardcodied IC Example',['../md_examples.html#autotoc_md87',1,'']]],
   ['images_4',['Base Images',['../md_docker.html#autotoc_md49',1,'']]],
   ['immersed_20boundary_20patch_20types_5',['Immersed Boundary Patch Types',['../md_case.html#autotoc_md35',1,'']]],

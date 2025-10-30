@@ -12,5 +12,7 @@ var searchData=
   ['example_20tags_9',['Example Tags',['../md_docker.html#autotoc_md51',1,'']]],
   ['examples_2emd_10',['examples.md',['../examples_8md.html',1,'']]],
   ['execution_11',['Execution',['../md_running.html#autotoc_md157',1,'Batch Execution'],['../md_running.html#autotoc_md156',1,'Interactive Execution']]],
-  ['expectedperformance_2emd_12',['expectedPerformance.md',['../expectedPerformance_8md.html',1,'']]]
+  ['expected_20performance_12',['Expected Performance',['../group__performance.html',1,'']]],
+  ['expectedperformance_13',['expectedPerformance',['../md_expectedPerformance.html',1,'']]],
+  ['expectedperformance_2emd_14',['expectedPerformance.md',['../expectedPerformance_8md.html',1,'']]]
 ];

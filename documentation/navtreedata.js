@@ -26,7 +26,7 @@ var NAVTREE =
 [
   [ "MFC", "index.html", [
     [ "Authors", "md_authors.html", null ],
-    [ "Continuous Benchmarks", "md_bench.html", null ],
+    [ "bench", "md_bench_2bench.html", null ],
     [ "Case Files", "md_case.html", [
       [ "Basic Skeleton", "md_case.html#autotoc_md3", null ],
       [ "(Optional) Accepting command line arguments", "md_case.html#autotoc_md4", null ],
@@ -169,21 +169,7 @@ var NAVTREE =
         [ "Final Condition", "md_examples.html#autotoc_md106", null ]
       ] ]
     ] ],
-    [ "Performance", "md_expectedPerformance.html", [
-      [ "Figure of merit: Grind time performance", "md_expectedPerformance.html#autotoc_md108", null ],
-      [ "Weak scaling", "md_expectedPerformance.html#autotoc_md109", [
-        [ "AMD MI250X GPU", "md_expectedPerformance.html#autotoc_md110", null ],
-        [ "NVIDIA V100 GPU", "md_expectedPerformance.html#autotoc_md111", null ],
-        [ "IBM Power9 CPU", "md_expectedPerformance.html#autotoc_md112", null ]
-      ] ],
-      [ "Strong scaling", "md_expectedPerformance.html#autotoc_md113", [
-        [ "NVIDIA V100 GPU", "md_expectedPerformance.html#autotoc_md114", [
-          [ "16M Grid Points", "md_expectedPerformance.html#autotoc_md115", null ],
-          [ "64M Grid Points", "md_expectedPerformance.html#autotoc_md116", null ]
-        ] ],
-        [ "IBM Power9 CPU", "md_expectedPerformance.html#autotoc_md117", null ]
-      ] ]
-    ] ],
+    [ "expectedPerformance", "md_expectedPerformance.html", null ],
     [ "Getting Started", "md_getting-started.html", [
       [ "Fetching MFC", "md_getting-started.html#autotoc_md119", null ],
       [ "Build Environment", "md_getting-started.html#autotoc_md120", null ],
@@ -217,6 +203,7 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Papers", "md_papers.html", null ],
+    [ "performance", "md_performance.html", null ],
     [ "Documentation", "md_readme.html", [
       [ "User Documentation", "md_readme.html#autotoc_md152", null ],
       [ "Code/API Documentation", "md_readme.html#autotoc_md153", null ]
@@ -244,13 +231,14 @@ var NAVTREE =
         [ "Step 2: Customizing the script", "md_visualization.html#autotoc_md173", null ],
         [ "Step 3: Running pace-paraview-server", "md_visualization.html#autotoc_md174", null ]
       ] ]
-    ] ]
+    ] ],
+    [ "Topics", "topics.html", "topics" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"group__performance.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
