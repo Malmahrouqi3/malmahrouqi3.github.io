@@ -32,7 +32,7 @@ var searchData=
   ['conservative_20variables_20ordering_29',['Conservative Variables Ordering',['../md_case.html#autotoc_md36',1,'']]],
   ['constant_20time_20stepping_30',['Constant Time-Stepping',['../md_case.html#autotoc_md18',1,'']]],
   ['containers_31',['Containers',['../md_docker.html',1,'Containers'],['../md_docker.html#autotoc_md42',1,'Details on Running Containers'],['../md_getting-started.html#autotoc_md122',1,'Using Containers']]],
-  ['continuous_20benchmarks_32',['Continuous Benchmarks',['../md_bench_2bench.html',1,'']]],
+  ['continuous_20benchmarks_32',['Continuous Benchmarks',['../md_bench.html',1,'']]],
   ['control_20macros_33',['Data Control Macros',['../md_gpuParallelization.html#autotoc_md133',1,'']]],
   ['coordinates_34',['16. Cylindrical Coordinates',['../md_case.html#autotoc_md30',1,'']]],
   ['coordinates_35',['Visualizing data in cylindrical coordinates',['../md_visualization.html#autotoc_md168',1,'']]],

@@ -1,10 +1,8 @@
 https://Malmahrouqi3.github.io/
 https://Malmahrouqi3.github.io/documentation/
-https://Malmahrouqi3.github.io/documentation/dir_a36c4719283424f51e58ca3678e5dea3.html
 https://Malmahrouqi3.github.io/documentation/doxygen_crawl.html
 https://Malmahrouqi3.github.io/documentation/graph_legend.html
 https://Malmahrouqi3.github.io/documentation/md_authors.html
-https://Malmahrouqi3.github.io/documentation/md_bench_2bench.html
 https://Malmahrouqi3.github.io/documentation/md_case.html
 https://Malmahrouqi3.github.io/documentation/md_docker.html
 https://Malmahrouqi3.github.io/documentation/md_examples.html
@@ -829,3 +827,4 @@ https://Malmahrouqi3.github.io/simulation/structm__derived__types_1_1vector__fie
 https://Malmahrouqi3.github.io/simulation/structm__derived__types_1_1vector__field.html
 https://Malmahrouqi3.github.io/simulation/structm__nvtx_1_1nvtxeventattributes-members.html
 https://Malmahrouqi3.github.io/simulation/structm__nvtx_1_1nvtxeventattributes.html
+https://Malmahrouqi3.github.io/documentation/bench/
