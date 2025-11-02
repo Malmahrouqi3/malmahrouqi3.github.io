@@ -17,7 +17,7 @@ var searchData=
   ['the_20test_20suite_14',['Running the Test Suite',['../md_getting-started.html#autotoc_md123',1,'']]],
   ['theory_15',['Theory',['../md_examples.html#autotoc_md62',1,'Final Condition and Linear Theory'],['../md_examples.html#autotoc_md97',1,'Final Condition and Linear Theory']]],
   ['time_16',['Numerical Schlieren at Final Time',['../md_examples.html#autotoc_md99',1,'']]],
-  ['time_20performance_17',['Figure of merit: Grind time performance',['../expectedPerformance.html#autotoc_md108',1,'']]],
+  ['time_20performance_17',['Figure of merit: Grind time performance',['../md_expectedPerformance.html#autotoc_md108',1,'']]],
   ['time_20stepping_18',['Time Stepping',['../md_case.html#autotoc_md19',1,'Adaptive Time-Stepping'],['../md_case.html#autotoc_md18',1,'Constant Time-Stepping']]],
   ['tips_20for_20gpus_19',['Debugging Tools and Tips for GPUs',['../md_gpuParallelization.html#autotoc_md139',1,'']]],
   ['titarev_20toro_20problem_201d_20',['Titarev-Toro problem (1D)',['../md_examples.html#autotoc_md84',1,'']]],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['of_20merit_3a_20grind_20time_20performance_0',['Figure of merit: Grind time performance',['../expectedPerformance.html#autotoc_md108',1,'']]],
+  ['of_20merit_3a_20grind_20time_20performance_0',['Figure of merit: Grind time performance',['../md_expectedPerformance.html#autotoc_md108',1,'']]],
   ['of_20primitive_20variables_1',['Analytical Definition of Primitive Variables',['../md_case.html#autotoc_md9',1,'']]],
   ['on_20pace_20phoenix_2',['Remote Visualization on PACE Phoenix',['../md_visualization.html#autotoc_md171',1,'']]],
   ['on_20running_20containers_3',['Details on Running Containers',['../md_docker.html#autotoc_md42',1,'']]],

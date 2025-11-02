@@ -26,10 +26,7 @@ var NAVTREE =
 [
   [ "MFC", "index.html", [
     [ "Authors", "md_authors.html", null ],
-    [ "bench", "md_bench_2bench.html", null ],
-    [ "Continuous Benchmarks", "continuousBenchmarks.html", [
-      [ "Continuous Benchmarks", "continuousBenchmarks.html#autotoc_md1", null ]
-    ] ],
+    [ "Continuous Benchmarks", "md_bench_2bench.html", null ],
     [ "Case Files", "md_case.html", [
       [ "Basic Skeleton", "md_case.html#autotoc_md3", null ],
       [ "(Optional) Accepting command line arguments", "md_case.html#autotoc_md4", null ],
@@ -172,22 +169,19 @@ var NAVTREE =
         [ "Final Condition", "md_examples.html#autotoc_md106", null ]
       ] ]
     ] ],
-    [ "expectedPerformance", "md_expectedPerformance.html", null ],
-    [ "Expected Performance", "expectedPerformance.html", [
-      [ "Performance", "expectedPerformance.html#autotoc_md107", [
-        [ "Figure of merit: Grind time performance", "expectedPerformance.html#autotoc_md108", null ],
-        [ "Weak scaling", "expectedPerformance.html#autotoc_md109", [
-          [ "AMD MI250X GPU", "expectedPerformance.html#autotoc_md110", null ],
-          [ "NVIDIA V100 GPU", "expectedPerformance.html#autotoc_md111", null ],
-          [ "IBM Power9 CPU", "expectedPerformance.html#autotoc_md112", null ]
+    [ "Performance", "md_expectedPerformance.html", [
+      [ "Figure of merit: Grind time performance", "md_expectedPerformance.html#autotoc_md108", null ],
+      [ "Weak scaling", "md_expectedPerformance.html#autotoc_md109", [
+        [ "AMD MI250X GPU", "md_expectedPerformance.html#autotoc_md110", null ],
+        [ "NVIDIA V100 GPU", "md_expectedPerformance.html#autotoc_md111", null ],
+        [ "IBM Power9 CPU", "md_expectedPerformance.html#autotoc_md112", null ]
+      ] ],
+      [ "Strong scaling", "md_expectedPerformance.html#autotoc_md113", [
+        [ "NVIDIA V100 GPU", "md_expectedPerformance.html#autotoc_md114", [
+          [ "16M Grid Points", "md_expectedPerformance.html#autotoc_md115", null ],
+          [ "64M Grid Points", "md_expectedPerformance.html#autotoc_md116", null ]
         ] ],
-        [ "Strong scaling", "expectedPerformance.html#autotoc_md113", [
-          [ "NVIDIA V100 GPU", "expectedPerformance.html#autotoc_md114", [
-            [ "16M Grid Points", "expectedPerformance.html#autotoc_md115", null ],
-            [ "64M Grid Points", "expectedPerformance.html#autotoc_md116", null ]
-          ] ],
-          [ "IBM Power9 CPU", "expectedPerformance.html#autotoc_md117", null ]
-        ] ]
+        [ "IBM Power9 CPU", "md_expectedPerformance.html#autotoc_md117", null ]
       ] ]
     ] ],
     [ "Getting Started", "md_getting-started.html", [
@@ -256,7 +250,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"continuousBenchmarks.html"
+"index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -7,7 +7,7 @@ var searchData=
   ['agnostic_20tools_4',['Compiler agnostic tools',['../md_gpuParallelization.html#autotoc_md140',1,'']]],
   ['algorithm_5',['6. Simulation Algorithm',['../md_case.html#autotoc_md16',1,'']]],
   ['amd_20gpus_6',['AMD GPUs',['../md_running.html#autotoc_md160',1,'']]],
-  ['amd_20mi250x_20gpu_7',['AMD MI250X GPU',['../expectedPerformance.html#autotoc_md110',1,'']]],
+  ['amd_20mi250x_20gpu_7',['AMD MI250X GPU',['../md_expectedPerformance.html#autotoc_md110',1,'']]],
   ['an_20example_20case_8',['Running an Example Case',['../md_getting-started.html#autotoc_md124',1,'']]],
   ['analytical_20definition_20of_20primitive_20variables_9',['Analytical Definition of Primitive Variables',['../md_case.html#autotoc_md9',1,'']]],
   ['and_20final_20conditions_10',['Density Initial and Final Conditions',['../md_examples.html#autotoc_md76',1,'']]],
