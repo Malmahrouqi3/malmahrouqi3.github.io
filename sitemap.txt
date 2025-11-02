@@ -14,14 +14,12 @@ https://Malmahrouqi3.github.io/documentation/md_expectedPerformance.html
 https://Malmahrouqi3.github.io/documentation/md_getting-started.html
 https://Malmahrouqi3.github.io/documentation/md_gpuParallelization.html
 https://Malmahrouqi3.github.io/documentation/md_papers.html
-https://Malmahrouqi3.github.io/documentation/md_performance.html
 https://Malmahrouqi3.github.io/documentation/md_readme.html
 https://Malmahrouqi3.github.io/documentation/md_references.html
 https://Malmahrouqi3.github.io/documentation/md_running.html
 https://Malmahrouqi3.github.io/documentation/md_testing.html
 https://Malmahrouqi3.github.io/documentation/md_visualization.html
 https://Malmahrouqi3.github.io/documentation/pages.html
-https://Malmahrouqi3.github.io/documentation/performance.html
 https://Malmahrouqi3.github.io/post_process/
 https://Malmahrouqi3.github.io/post_process/annotated.html
 https://Malmahrouqi3.github.io/post_process/classes.html
