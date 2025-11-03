@@ -2,7 +2,7 @@ window.BENCHMARK_DATA = {
   "lastUpdate": 1761688563304,
   "repoUrl": "https://github.com/Malmahrouqi3/MFC-mo2",
   "entries": {
-    "Continuous Benchmarking (CPU)": [
+    "GT Phoenix (CPU)": [
       {
         "commit": {
           "author": {
@@ -108,7 +108,7 @@ window.BENCHMARK_DATA = {
         ]
       }
     ],
-    "Continuous Benchmarking (GPU)": [
+    "GT Phoenix (GPU)": [
       {
         "commit": {
           "author": {
