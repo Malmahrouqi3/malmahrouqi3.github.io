@@ -27,31 +27,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -79,31 +79,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -131,31 +131,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -183,31 +183,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -235,31 +235,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -287,31 +287,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -339,31 +339,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -390,32 +390,32 @@ window.BENCHMARK_DATA = {
           {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
-            "unit": "s/iter",
-            "extra": "iterations: 94877\ncpu: 29275 s\nthreads: 1"
+            "unit": "s",
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
-            "unit": "s/iter",
-            "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
+            "unit": "s",
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
-            "unit": "s/iter",
-            "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
+            "unit": "s",
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
-            "unit": "s/iter",
-            "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
+            "unit": "s",
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
-            "unit": "s/iter",
-            "extra": "iterations: 21393\ncpu: 29275 s\nthreads: 1"
+            "unit": "s",
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       }
@@ -445,31 +445,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -497,31 +497,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -549,31 +549,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -601,31 +601,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -653,31 +653,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -705,31 +705,31 @@ window.BENCHMARK_DATA = {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
             "unit": "s",
-            "extra": "iterations: 94877\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
             "unit": "s",
-            "extra": "iterations: 21609\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
             "unit": "s",
-            "extra": "iterations: 21393\nruntime: 29275 s\nthreads: 1"
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       },
@@ -756,32 +756,32 @@ window.BENCHMARK_DATA = {
           {
             "name": "5eq_rk3_weno3_hllc",
             "value": 29275,
-            "unit": "s/iter",
-            "extra": "iterations: 94877\ncpu: 29275 s\nthreads: 1"
+            "unit": "s",
+            "extra": "time steps: 94877\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "hypo_hll",
             "value": 32317,
-            "unit": "s/iter",
-            "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
+            "unit": "s",
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "ibm",
             "value": 32317,
-            "unit": "s/iter",
-            "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
+            "unit": "s",
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "igr",
             "value": 32317,
-            "unit": "s/iter",
-            "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
+            "unit": "s",
+            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 32724,
-            "unit": "s/iter",
-            "extra": "iterations: 21393\ncpu: 29275 s\nthreads: 1"
+            "unit": "s",
+            "extra": "time steps: 21393\nruntime: 29275 s\nthreads: 1"
           }
         ]
       }
