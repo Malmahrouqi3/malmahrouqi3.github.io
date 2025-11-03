@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762152290727,
+  "lastUpdate": 1762152293501,
   "repoUrl": "https://github.com/Malmahrouqi3/MFC-mo2",
   "entries": {
     "GT Phoenix (CPU)": [
@@ -387,6 +387,58 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/c074f4144e40da4bda67bea415e45e574015c096"
         },
         "date": 1762152242305,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "5eq_rk3_weno3_hllc",
+            "value": 29275,
+            "unit": "s/iter",
+            "extra": "iterations: 94877\ncpu: 29275 s\nthreads: 1"
+          },
+          {
+            "name": "hypo_hll",
+            "value": 32317,
+            "unit": "s/iter",
+            "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
+          },
+          {
+            "name": "ibm",
+            "value": 32317,
+            "unit": "s/iter",
+            "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
+          },
+          {
+            "name": "igr",
+            "value": 32317,
+            "unit": "s/iter",
+            "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
+          },
+          {
+            "name": "viscous_weno5_sgb_acoustic",
+            "value": 32724,
+            "unit": "s/iter",
+            "extra": "iterations: 21393\ncpu: 29275 s\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Mohammed S. Al-Mahrouqi",
+            "username": "Malmahrouqi3",
+            "email": "145478595+Malmahrouqi3@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "c074f4144e40da4bda67bea415e45e574015c096",
+          "message": "Restore data.js in docs.yml workflow\n\nRestore documentation/data.js in the GitHub Actions workflow.",
+          "timestamp": "2025-11-03T06:33:40Z",
+          "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/c074f4144e40da4bda67bea415e45e574015c096"
+        },
+        "date": 1762152292023,
         "tool": "googlecpp",
         "benches": [
           {
