@@ -1,12 +1,14 @@
 https://Malmahrouqi3.github.io/
 https://Malmahrouqi3.github.io/documentation/
+https://Malmahrouqi3.github.io/documentation/ContinuousBenchmarking.html
+https://Malmahrouqi3.github.io/documentation/Performance.html
 https://Malmahrouqi3.github.io/documentation/doxygen_crawl.html
+https://Malmahrouqi3.github.io/documentation/expectedPerformance.html
 https://Malmahrouqi3.github.io/documentation/graph_legend.html
 https://Malmahrouqi3.github.io/documentation/md_authors.html
 https://Malmahrouqi3.github.io/documentation/md_case.html
 https://Malmahrouqi3.github.io/documentation/md_docker.html
 https://Malmahrouqi3.github.io/documentation/md_examples.html
-https://Malmahrouqi3.github.io/documentation/md_expectedPerformance.html
 https://Malmahrouqi3.github.io/documentation/md_getting-started.html
 https://Malmahrouqi3.github.io/documentation/md_gpuParallelization.html
 https://Malmahrouqi3.github.io/documentation/md_papers.html
@@ -827,4 +829,3 @@ https://Malmahrouqi3.github.io/simulation/structm__derived__types_1_1vector__fie
 https://Malmahrouqi3.github.io/simulation/structm__derived__types_1_1vector__field.html
 https://Malmahrouqi3.github.io/simulation/structm__nvtx_1_1nvtxeventattributes-members.html
 https://Malmahrouqi3.github.io/simulation/structm__nvtx_1_1nvtxeventattributes.html
-https://Malmahrouqi3.github.io/documentation/bench/
