@@ -1,6 +1,7 @@
 https://Malmahrouqi3.github.io/
 https://Malmahrouqi3.github.io/documentation/
 https://Malmahrouqi3.github.io/documentation/ContinuousBenchmarking.html
+https://Malmahrouqi3.github.io/documentation/Performance.html
 https://Malmahrouqi3.github.io/documentation/doxygen_crawl.html
 https://Malmahrouqi3.github.io/documentation/expectedPerformance.html
 https://Malmahrouqi3.github.io/documentation/graph_legend.html

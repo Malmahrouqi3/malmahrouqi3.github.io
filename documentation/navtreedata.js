@@ -26,7 +26,6 @@ var NAVTREE =
 [
   [ "MFC", "index.html", [
     [ "Authors", "md_authors.html", null ],
-    [ "Continuous Benchmarking", "ContinuousBenchmarking.html", null ],
     [ "Case Files", "md_case.html", [
       [ "Basic Skeleton", "md_case.html#autotoc_md2", null ],
       [ "(Optional) Accepting command line arguments", "md_case.html#autotoc_md3", null ],
@@ -169,80 +168,66 @@ var NAVTREE =
         [ "Final Condition", "md_examples.html#autotoc_md105", null ]
       ] ]
     ] ],
-    [ "Expected Performance", "expectedPerformance.html", [
-      [ "Figure of merit: Grind time performance", "expectedPerformance.html#autotoc_md106", null ],
-      [ "Weak scaling", "expectedPerformance.html#autotoc_md107", [
-        [ "AMD MI250X GPU", "expectedPerformance.html#autotoc_md108", null ],
-        [ "NVIDIA V100 GPU", "expectedPerformance.html#autotoc_md109", null ],
-        [ "IBM Power9 CPU", "expectedPerformance.html#autotoc_md110", null ]
-      ] ],
-      [ "Strong scaling", "expectedPerformance.html#autotoc_md111", [
-        [ "NVIDIA V100 GPU", "expectedPerformance.html#autotoc_md112", [
-          [ "16M Grid Points", "expectedPerformance.html#autotoc_md113", null ],
-          [ "64M Grid Points", "expectedPerformance.html#autotoc_md114", null ]
-        ] ],
-        [ "IBM Power9 CPU", "expectedPerformance.html#autotoc_md115", null ]
-      ] ]
-    ] ],
+    [ "Performance", "Performance.html", "Performance" ],
     [ "Getting Started", "md_getting-started.html", [
-      [ "Fetching MFC", "md_getting-started.html#autotoc_md117", null ],
-      [ "Build Environment", "md_getting-started.html#autotoc_md118", null ],
-      [ "Building MFC", "md_getting-started.html#autotoc_md119", null ],
-      [ "Using Containers", "md_getting-started.html#autotoc_md120", null ],
-      [ "Running the Test Suite", "md_getting-started.html#autotoc_md121", null ],
-      [ "Running an Example Case", "md_getting-started.html#autotoc_md122", null ]
+      [ "Fetching MFC", "md_getting-started.html#autotoc_md118", null ],
+      [ "Build Environment", "md_getting-started.html#autotoc_md119", null ],
+      [ "Building MFC", "md_getting-started.html#autotoc_md120", null ],
+      [ "Using Containers", "md_getting-started.html#autotoc_md121", null ],
+      [ "Running the Test Suite", "md_getting-started.html#autotoc_md122", null ],
+      [ "Running an Example Case", "md_getting-started.html#autotoc_md123", null ]
     ] ],
     [ "GPU Parallelization", "md_gpuParallelization.html", [
-      [ "Macro API Documentation", "md_gpuParallelization.html#autotoc_md125", [
-        [ "Data Type Meanings", "md_gpuParallelization.html#autotoc_md126", null ],
-        [ "Data Flow", "md_gpuParallelization.html#autotoc_md127", null ],
-        [ "Computation Macros", "md_gpuParallelization.html#autotoc_md129", null ],
-        [ "Data Control Macros", "md_gpuParallelization.html#autotoc_md131", null ],
-        [ "Synchronization Macros", "md_gpuParallelization.html#autotoc_md133", null ],
-        [ "Miscellaneous Macros", "md_gpuParallelization.html#autotoc_md135", null ]
+      [ "Macro API Documentation", "md_gpuParallelization.html#autotoc_md126", [
+        [ "Data Type Meanings", "md_gpuParallelization.html#autotoc_md127", null ],
+        [ "Data Flow", "md_gpuParallelization.html#autotoc_md128", null ],
+        [ "Computation Macros", "md_gpuParallelization.html#autotoc_md130", null ],
+        [ "Data Control Macros", "md_gpuParallelization.html#autotoc_md132", null ],
+        [ "Synchronization Macros", "md_gpuParallelization.html#autotoc_md134", null ],
+        [ "Miscellaneous Macros", "md_gpuParallelization.html#autotoc_md136", null ]
       ] ],
-      [ "Debugging Tools and Tips for GPUs", "md_gpuParallelization.html#autotoc_md137", [
-        [ "Compiler agnostic tools", "md_gpuParallelization.html#autotoc_md138", null ],
-        [ "OpenMP tools", "md_gpuParallelization.html#autotoc_md139", null ],
-        [ "Cray Compiler Tools", "md_gpuParallelization.html#autotoc_md140", [
-          [ "Cray General Options", "md_gpuParallelization.html#autotoc_md141", null ],
-          [ "Cray OpenACC Options", "md_gpuParallelization.html#autotoc_md142", null ]
+      [ "Debugging Tools and Tips for GPUs", "md_gpuParallelization.html#autotoc_md138", [
+        [ "Compiler agnostic tools", "md_gpuParallelization.html#autotoc_md139", null ],
+        [ "OpenMP tools", "md_gpuParallelization.html#autotoc_md140", null ],
+        [ "Cray Compiler Tools", "md_gpuParallelization.html#autotoc_md141", [
+          [ "Cray General Options", "md_gpuParallelization.html#autotoc_md142", null ],
+          [ "Cray OpenACC Options", "md_gpuParallelization.html#autotoc_md143", null ]
         ] ],
-        [ "NVHPC Compiler Options", "md_gpuParallelization.html#autotoc_md143", [
-          [ "NVHPC General Options", "md_gpuParallelization.html#autotoc_md144", null ],
-          [ "NVHPC OpenACC Options", "md_gpuParallelization.html#autotoc_md145", null ],
-          [ "NVHPC OpenMP Options", "md_gpuParallelization.html#autotoc_md146", null ]
+        [ "NVHPC Compiler Options", "md_gpuParallelization.html#autotoc_md144", [
+          [ "NVHPC General Options", "md_gpuParallelization.html#autotoc_md145", null ],
+          [ "NVHPC OpenACC Options", "md_gpuParallelization.html#autotoc_md146", null ],
+          [ "NVHPC OpenMP Options", "md_gpuParallelization.html#autotoc_md147", null ]
         ] ],
-        [ "Compiler Documentation", "md_gpuParallelization.html#autotoc_md147", null ]
+        [ "Compiler Documentation", "md_gpuParallelization.html#autotoc_md148", null ]
       ] ]
     ] ],
     [ "Papers", "md_papers.html", null ],
     [ "Documentation", "md_readme.html", [
-      [ "User Documentation", "md_readme.html#autotoc_md150", null ],
-      [ "Code/API Documentation", "md_readme.html#autotoc_md151", null ]
+      [ "User Documentation", "md_readme.html#autotoc_md151", null ],
+      [ "Code/API Documentation", "md_readme.html#autotoc_md152", null ]
     ] ],
     [ "References", "md_references.html", null ],
     [ "Running", "md_running.html", [
-      [ "Interactive Execution", "md_running.html#autotoc_md154", null ],
-      [ "Batch Execution", "md_running.html#autotoc_md155", [
-        [ "GPU Profiling", "md_running.html#autotoc_md156", [
-          [ "NVIDIA GPUs", "md_running.html#autotoc_md157", null ],
-          [ "AMD GPUs", "md_running.html#autotoc_md158", null ]
+      [ "Interactive Execution", "md_running.html#autotoc_md155", null ],
+      [ "Batch Execution", "md_running.html#autotoc_md156", [
+        [ "GPU Profiling", "md_running.html#autotoc_md157", [
+          [ "NVIDIA GPUs", "md_running.html#autotoc_md158", null ],
+          [ "AMD GPUs", "md_running.html#autotoc_md159", null ]
         ] ],
-        [ "Restarting Cases", "md_running.html#autotoc_md159", null ],
-        [ "Example Runs", "md_running.html#autotoc_md160", null ]
+        [ "Restarting Cases", "md_running.html#autotoc_md160", null ],
+        [ "Example Runs", "md_running.html#autotoc_md161", null ]
       ] ]
     ] ],
     [ "Testing", "md_testing.html", null ],
     [ "Flow visualization", "md_visualization.html", [
-      [ "Visualizing with VisIt", "md_visualization.html#autotoc_md167", null ],
-      [ "Serial data output", "md_visualization.html#autotoc_md168", null ],
-      [ "Remote Visualization on PACE Phoenix", "md_visualization.html#autotoc_md169", [
-        [ "Visualizing with Paraview", "md_visualization.html#autotoc_md165", null ],
-        [ "Visualizing data in cylindrical coordinates", "md_visualization.html#autotoc_md166", null ],
-        [ "Step 1: Setting up your Environment", "md_visualization.html#autotoc_md170", null ],
-        [ "Step 2: Customizing the script", "md_visualization.html#autotoc_md171", null ],
-        [ "Step 3: Running pace-paraview-server", "md_visualization.html#autotoc_md172", null ]
+      [ "Visualizing with VisIt", "md_visualization.html#autotoc_md168", null ],
+      [ "Serial data output", "md_visualization.html#autotoc_md169", null ],
+      [ "Remote Visualization on PACE Phoenix", "md_visualization.html#autotoc_md170", [
+        [ "Visualizing with Paraview", "md_visualization.html#autotoc_md166", null ],
+        [ "Visualizing data in cylindrical coordinates", "md_visualization.html#autotoc_md167", null ],
+        [ "Step 1: Setting up your Environment", "md_visualization.html#autotoc_md171", null ],
+        [ "Step 2: Customizing the script", "md_visualization.html#autotoc_md172", null ],
+        [ "Step 3: Running pace-paraview-server", "md_visualization.html#autotoc_md173", null ]
       ] ]
     ] ]
   ] ]
