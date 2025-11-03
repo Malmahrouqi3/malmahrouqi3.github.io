@@ -1,7 +1,6 @@
 var NAVTREEINDEX0 =
 {
 "ContinuousBenchmarking.html":[4,1],
-"ContinuousBenchmarking.html#ContinuousBenchmarking":[4,1,0],
 "Performance.html":[4],
 "expectedPerformance.html":[4,0],
 "expectedPerformance.html#autotoc_md107":[4,0,0],

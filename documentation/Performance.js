@@ -15,7 +15,5 @@ var Performance =
         [ "IBM Power9 CPU", "expectedPerformance.html#autotoc_md116", null ]
       ] ]
     ] ],
-    [ "Continuous Benchmarking", "ContinuousBenchmarking.html", [
-      [ "Continuous Benchmarking", "ContinuousBenchmarking.html#ContinuousBenchmarking", null ]
-    ] ]
+    [ "Continuous Benchmarking", "ContinuousBenchmarking.html", null ]
 ];

@@ -5,7 +5,7 @@ var searchData=
   ['basic_20skeleton_2',['Basic Skeleton',['../md_case.html#autotoc_md2',1,'']]],
   ['batch_20execution_3',['Batch Execution',['../md_running.html#autotoc_md156',1,'']]],
   ['bench_2emd_4',['bench.md',['../bench_8md.html',1,'']]],
-  ['benchmarking_5',['Benchmarking',['../ContinuousBenchmarking.html',1,'Continuous Benchmarking'],['../ContinuousBenchmarking.html#ContinuousBenchmarking',1,'Continuous Benchmarking']]],
+  ['benchmarking_5',['Continuous Benchmarking',['../ContinuousBenchmarking.html',1,'Performance']]],
   ['body_20forces_6',['13. Body Forces',['../md_case.html#autotoc_md26',1,'']]],
   ['boundary_20condition_20patches_7',['Boundary Condition Patches',['../md_case.html#autotoc_md16',1,'']]],
   ['boundary_20conditions_8',['Boundary conditions',['../md_case.html#autotoc_md31',1,'Boundary conditions'],['../md_case.html#autotoc_md32',1,'Generalized Characteristic Boundary conditions']]],
