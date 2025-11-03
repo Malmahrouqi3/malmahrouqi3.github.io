@@ -26,162 +26,164 @@ var NAVTREE =
 [
   [ "MFC", "index.html", [
     [ "Authors", "md_authors.html", null ],
-    [ "Continuous Benchmarking", "bench.html", null ],
+    [ "Continuous Benchmarking", "md_bench.html", null ],
     [ "Case Files", "md_case.html", [
-      [ "Basic Skeleton", "md_case.html#autotoc_md2", null ],
-      [ "(Optional) Accepting command line arguments", "md_case.html#autotoc_md3", null ],
-      [ "Parameters", "md_case.html#autotoc_md4", [
-        [ "Runtime", "md_case.html#autotoc_md5", null ],
-        [ "Computational Domain", "md_case.html#autotoc_md6", null ],
-        [ "Patches", "md_case.html#autotoc_md7", [
-          [ "Analytical Definition of Primitive Variables", "md_case.html#autotoc_md8", null ],
-          [ "Hard Coded Patches", "md_case.html#autotoc_md9", null ],
-          [ "Parameter Descriptions", "md_case.html#autotoc_md10", null ],
-          [ "Elliptic Smoothing", "md_case.html#autotoc_md11", null ]
+      [ "Basic Skeleton", "md_case.html#autotoc_md3", null ],
+      [ "(Optional) Accepting command line arguments", "md_case.html#autotoc_md4", null ],
+      [ "Parameters", "md_case.html#autotoc_md5", [
+        [ "Runtime", "md_case.html#autotoc_md6", null ],
+        [ "Computational Domain", "md_case.html#autotoc_md7", null ],
+        [ "Patches", "md_case.html#autotoc_md8", [
+          [ "Analytical Definition of Primitive Variables", "md_case.html#autotoc_md9", null ],
+          [ "Hard Coded Patches", "md_case.html#autotoc_md10", null ],
+          [ "Parameter Descriptions", "md_case.html#autotoc_md11", null ],
+          [ "Elliptic Smoothing", "md_case.html#autotoc_md12", null ]
         ] ],
-        [ "Immersed Boundary Patches", "md_case.html#autotoc_md12", [
-          [ "Parameter Descriptions", "md_case.html#autotoc_md13", null ]
+        [ "Immersed Boundary Patches", "md_case.html#autotoc_md13", [
+          [ "Parameter Descriptions", "md_case.html#autotoc_md14", null ]
         ] ],
-        [ "Fluid Material’s", "md_case.html#autotoc_md14", null ],
-        [ "Simulation Algorithm", "md_case.html#autotoc_md15", [
-          [ "Boundary Condition Patches", "md_case.html#autotoc_md16", null ],
-          [ "Constant Time-Stepping", "md_case.html#autotoc_md17", [
-            [ "Adaptive Time-Stepping", "md_case.html#autotoc_md18", null ]
+        [ "Fluid Material’s", "md_case.html#autotoc_md15", null ],
+        [ "Simulation Algorithm", "md_case.html#autotoc_md16", [
+          [ "Boundary Condition Patches", "md_case.html#autotoc_md17", null ],
+          [ "Constant Time-Stepping", "md_case.html#autotoc_md18", [
+            [ "Adaptive Time-Stepping", "md_case.html#autotoc_md19", null ]
           ] ]
         ] ],
-        [ "Formatted Output", "md_case.html#autotoc_md19", null ],
+        [ "Formatted Output", "md_case.html#autotoc_md20", null ],
         [ "Acoustic Source", "md_case.html#acoustic-source", null ],
-        [ "Sub-grid Bubble Models", "md_case.html#autotoc_md20", [
-          [ "9.1 Ensemble-Averaged Bubble Model", "md_case.html#autotoc_md21", null ],
-          [ "9.2 Volume-Averaged Bubble Model", "md_case.html#autotoc_md22", null ]
+        [ "Sub-grid Bubble Models", "md_case.html#autotoc_md21", [
+          [ "9.1 Ensemble-Averaged Bubble Model", "md_case.html#autotoc_md22", null ],
+          [ "9.2 Volume-Averaged Bubble Model", "md_case.html#autotoc_md23", null ]
         ] ],
-        [ "Velocity Field Setup", "md_case.html#autotoc_md23", null ],
-        [ "Phase Change Model", "md_case.html#autotoc_md24", null ],
-        [ "Artificial Mach Number", "md_case.html#autotoc_md25", null ],
-        [ "Body Forces", "md_case.html#autotoc_md26", null ],
-        [ "Magnetohydrodynamics (MHD)", "md_case.html#autotoc_md27", null ],
-        [ "Elasticity", "md_case.html#autotoc_md28", null ],
-        [ "Cylindrical Coordinates", "md_case.html#autotoc_md29", null ]
+        [ "Velocity Field Setup", "md_case.html#autotoc_md24", null ],
+        [ "Phase Change Model", "md_case.html#autotoc_md25", null ],
+        [ "Artificial Mach Number", "md_case.html#autotoc_md26", null ],
+        [ "Body Forces", "md_case.html#autotoc_md27", null ],
+        [ "Magnetohydrodynamics (MHD)", "md_case.html#autotoc_md28", null ],
+        [ "Elasticity", "md_case.html#autotoc_md29", null ],
+        [ "Cylindrical Coordinates", "md_case.html#autotoc_md30", null ]
       ] ],
-      [ "Enumerations", "md_case.html#autotoc_md30", [
-        [ "Boundary conditions", "md_case.html#autotoc_md31", null ],
-        [ "Generalized Characteristic Boundary conditions", "md_case.html#autotoc_md32", null ],
-        [ "Patch types", "md_case.html#autotoc_md33", null ],
-        [ "Immersed Boundary Patch Types", "md_case.html#autotoc_md34", null ],
+      [ "Enumerations", "md_case.html#autotoc_md31", [
+        [ "Boundary conditions", "md_case.html#autotoc_md32", null ],
+        [ "Generalized Characteristic Boundary conditions", "md_case.html#autotoc_md33", null ],
+        [ "Patch types", "md_case.html#autotoc_md34", null ],
+        [ "Immersed Boundary Patch Types", "md_case.html#autotoc_md35", null ],
         [ "Acoustic Supports", "md_case.html#acoustic-supports", null ],
-        [ "Conservative Variables Ordering", "md_case.html#autotoc_md35", null ],
-        [ "Primitive Variables Ordering", "md_case.html#autotoc_md36", null ]
+        [ "Conservative Variables Ordering", "md_case.html#autotoc_md36", null ],
+        [ "Primitive Variables Ordering", "md_case.html#autotoc_md37", null ]
       ] ]
     ] ],
     [ "Containers", "md_docker.html", [
-      [ "Navigating Docker", "md_docker.html#autotoc_md38", [
-        [ "Docker Desktop GUI", "md_docker.html#autotoc_md39", null ],
-        [ "Docker CLI", "md_docker.html#autotoc_md40", null ]
+      [ "Navigating Docker", "md_docker.html#autotoc_md39", [
+        [ "Docker Desktop GUI", "md_docker.html#autotoc_md40", null ],
+        [ "Docker CLI", "md_docker.html#autotoc_md41", null ]
       ] ],
-      [ "Details on Running Containers", "md_docker.html#autotoc_md41", [
-        [ "Portability", "md_docker.html#autotoc_md42", null ]
+      [ "Details on Running Containers", "md_docker.html#autotoc_md42", [
+        [ "Portability", "md_docker.html#autotoc_md43", null ]
       ] ],
-      [ "Using Supercomputers/Clusters via Apptainer/Singularity", "md_docker.html#autotoc_md43", [
-        [ "Interactive Shell", "md_docker.html#autotoc_md44", null ],
-        [ "For Portability", "md_docker.html#autotoc_md45", null ],
-        [ "Slurm Job", "md_docker.html#autotoc_md46", null ]
+      [ "Using Supercomputers/Clusters via Apptainer/Singularity", "md_docker.html#autotoc_md44", [
+        [ "Interactive Shell", "md_docker.html#autotoc_md45", null ],
+        [ "For Portability", "md_docker.html#autotoc_md46", null ],
+        [ "Slurm Job", "md_docker.html#autotoc_md47", null ]
       ] ],
-      [ "Tag Details", "md_docker.html#autotoc_md47", [
-        [ "Base Images", "md_docker.html#autotoc_md48", null ],
-        [ "Tag Structure", "md_docker.html#autotoc_md49", null ],
-        [ "Example Tags", "md_docker.html#autotoc_md50", null ],
-        [ "Architecture Support", "md_docker.html#autotoc_md51", null ]
+      [ "Tag Details", "md_docker.html#autotoc_md48", [
+        [ "Base Images", "md_docker.html#autotoc_md49", null ],
+        [ "Tag Structure", "md_docker.html#autotoc_md50", null ],
+        [ "Example Tags", "md_docker.html#autotoc_md51", null ],
+        [ "Architecture Support", "md_docker.html#autotoc_md52", null ]
       ] ]
     ] ],
     [ "Example Cases", "md_examples.html", [
-      [ "Lax shock tube problem (1D)", "md_examples.html#autotoc_md53", [
-        [ "Initial Condition", "md_examples.html#autotoc_md54", null ],
-        [ "Result", "md_examples.html#autotoc_md55", null ]
+      [ "Lax shock tube problem (1D)", "md_examples.html#autotoc_md54", [
+        [ "Initial Condition", "md_examples.html#autotoc_md55", null ],
+        [ "Result", "md_examples.html#autotoc_md56", null ]
       ] ],
-      [ "Scaling and Performance test", "md_examples.html#autotoc_md56", [
-        [ "Weak Scaling", "md_examples.html#autotoc_md57", null ],
-        [ "Strong Scaling", "md_examples.html#autotoc_md58", null ],
-        [ "Example", "md_examples.html#autotoc_md59", null ]
+      [ "Scaling and Performance test", "md_examples.html#autotoc_md57", [
+        [ "Weak Scaling", "md_examples.html#autotoc_md58", null ],
+        [ "Strong Scaling", "md_examples.html#autotoc_md59", null ],
+        [ "Example", "md_examples.html#autotoc_md60", null ]
       ] ],
-      [ "Rayleigh-Taylor Instability (3D)", "md_examples.html#autotoc_md60", [
-        [ "Final Condition and Linear Theory", "md_examples.html#autotoc_md61", null ]
+      [ "Rayleigh-Taylor Instability (3D)", "md_examples.html#autotoc_md61", [
+        [ "Final Condition and Linear Theory", "md_examples.html#autotoc_md62", null ]
       ] ],
-      [ "2D IBM CFL dt (2D)", "md_examples.html#autotoc_md62", [
-        [ "Result", "md_examples.html#autotoc_md63", null ]
+      [ "2D IBM CFL dt (2D)", "md_examples.html#autotoc_md63", [
+        [ "Result", "md_examples.html#autotoc_md64", null ]
       ] ],
-      [ "Shu-Osher problem (1D)", "md_examples.html#autotoc_md64", [
-        [ "Initial Condition", "md_examples.html#autotoc_md65", null ],
-        [ "Result", "md_examples.html#autotoc_md66", null ]
+      [ "Shu-Osher problem (1D)", "md_examples.html#autotoc_md65", [
+        [ "Initial Condition", "md_examples.html#autotoc_md66", null ],
+        [ "Result", "md_examples.html#autotoc_md67", null ]
       ] ],
-      [ "Gas Jet (2D)", "md_examples.html#autotoc_md67", [
-        [ "Final Condition", "md_examples.html#autotoc_md68", null ]
+      [ "Gas Jet (2D)", "md_examples.html#autotoc_md68", [
+        [ "Final Condition", "md_examples.html#autotoc_md69", null ]
       ] ],
-      [ "1D Multi-Component Reactive Shock Tube", "md_examples.html#autotoc_md69", [
-        [ "Initial Condition", "md_examples.html#autotoc_md70", null ],
-        [ "Results", "md_examples.html#autotoc_md71", null ]
+      [ "1D Multi-Component Reactive Shock Tube", "md_examples.html#autotoc_md70", [
+        [ "Initial Condition", "md_examples.html#autotoc_md71", null ],
+        [ "Results", "md_examples.html#autotoc_md72", null ]
       ] ],
-      [ "Forward Facing Step (2D)", "md_examples.html#autotoc_md72", [
-        [ "Final Condition (Density)", "md_examples.html#autotoc_md73", null ]
+      [ "Forward Facing Step (2D)", "md_examples.html#autotoc_md73", [
+        [ "Final Condition (Density)", "md_examples.html#autotoc_md74", null ]
       ] ],
-      [ "2D Riemann Test (2D)", "md_examples.html#autotoc_md74", [
-        [ "Density Initial and Final Conditions", "md_examples.html#autotoc_md75", null ]
+      [ "2D Riemann Test (2D)", "md_examples.html#autotoc_md75", [
+        [ "Density Initial and Final Conditions", "md_examples.html#autotoc_md76", null ]
       ] ],
-      [ "Perfectly Stirred Reactor", "md_examples.html#autotoc_md76", null ],
-      [ "Lid-Driven Cavity Problem (2D)", "md_examples.html#autotoc_md77", [
-        [ "Final Condition", "md_examples.html#autotoc_md78", null ],
-        [ "Centerline Velocities", "md_examples.html#autotoc_md79", null ]
+      [ "Perfectly Stirred Reactor", "md_examples.html#autotoc_md77", null ],
+      [ "Lid-Driven Cavity Problem (2D)", "md_examples.html#autotoc_md78", [
+        [ "Final Condition", "md_examples.html#autotoc_md79", null ],
+        [ "Centerline Velocities", "md_examples.html#autotoc_md80", null ]
       ] ],
-      [ "Isentropic vortex problem (2D)", "md_examples.html#autotoc_md80", [
-        [ "Density", "md_examples.html#autotoc_md81", null ],
-        [ "Density Norms", "md_examples.html#autotoc_md82", null ]
+      [ "Isentropic vortex problem (2D)", "md_examples.html#autotoc_md81", [
+        [ "Density", "md_examples.html#autotoc_md82", null ],
+        [ "Density Norms", "md_examples.html#autotoc_md83", null ]
       ] ],
-      [ "Titarev-Toro problem (1D)", "md_examples.html#autotoc_md83", [
-        [ "Initial Condition", "md_examples.html#autotoc_md84", null ],
-        [ "Result", "md_examples.html#autotoc_md85", null ]
+      [ "Titarev-Toro problem (1D)", "md_examples.html#autotoc_md84", [
+        [ "Initial Condition", "md_examples.html#autotoc_md85", null ],
+        [ "Result", "md_examples.html#autotoc_md86", null ]
       ] ],
-      [ "2D Hardcodied IC Example", "md_examples.html#autotoc_md86", [
-        [ "Initial Condition and Result", "md_examples.html#autotoc_md87", null ]
+      [ "2D Hardcodied IC Example", "md_examples.html#autotoc_md87", [
+        [ "Initial Condition and Result", "md_examples.html#autotoc_md88", null ]
       ] ],
-      [ "Backward Facing Step (2D)", "md_examples.html#autotoc_md88", [
-        [ "Final Condition (Density)", "md_examples.html#autotoc_md89", null ]
+      [ "Backward Facing Step (2D)", "md_examples.html#autotoc_md89", [
+        [ "Final Condition (Density)", "md_examples.html#autotoc_md90", null ]
       ] ],
-      [ "Shock Droplet (2D)", "md_examples.html#autotoc_md90", [
-        [ "Initial Condition", "md_examples.html#autotoc_md91", null ],
-        [ "Result", "md_examples.html#autotoc_md92", null ]
+      [ "Shock Droplet (2D)", "md_examples.html#autotoc_md91", [
+        [ "Initial Condition", "md_examples.html#autotoc_md92", null ],
+        [ "Result", "md_examples.html#autotoc_md93", null ]
       ] ],
-      [ "Taylor-Green Vortex (3D)", "md_examples.html#autotoc_md93", [
-        [ "Final Condition", "md_examples.html#autotoc_md94", null ]
+      [ "Taylor-Green Vortex (3D)", "md_examples.html#autotoc_md94", [
+        [ "Final Condition", "md_examples.html#autotoc_md95", null ]
       ] ],
-      [ "Rayleigh-Taylor Instability (2D)", "md_examples.html#autotoc_md95", [
-        [ "Final Condition and Linear Theory", "md_examples.html#autotoc_md96", null ]
+      [ "Rayleigh-Taylor Instability (2D)", "md_examples.html#autotoc_md96", [
+        [ "Final Condition and Linear Theory", "md_examples.html#autotoc_md97", null ]
       ] ],
-      [ "2D Triple Point (2D)", "md_examples.html#autotoc_md97", [
-        [ "Numerical Schlieren at Final Time", "md_examples.html#autotoc_md98", null ]
+      [ "2D Triple Point (2D)", "md_examples.html#autotoc_md98", [
+        [ "Numerical Schlieren at Final Time", "md_examples.html#autotoc_md99", null ]
       ] ],
-      [ "3D Turbulent Mixing layer (3D)", "md_examples.html#autotoc_md99", [
-        [ "Liutex visualization at transitional state", "md_examples.html#autotoc_md100", null ]
+      [ "3D Turbulent Mixing layer (3D)", "md_examples.html#autotoc_md100", [
+        [ "Liutex visualization at transitional state", "md_examples.html#autotoc_md101", null ]
       ] ],
-      [ "1D Multi-Component Inert Shock Tube", "md_examples.html#autotoc_md101", [
-        [ "Initial Condition", "md_examples.html#autotoc_md102", null ],
-        [ "Results", "md_examples.html#autotoc_md103", null ]
+      [ "1D Multi-Component Inert Shock Tube", "md_examples.html#autotoc_md102", [
+        [ "Initial Condition", "md_examples.html#autotoc_md103", null ],
+        [ "Results", "md_examples.html#autotoc_md104", null ]
       ] ],
-      [ "IBM Bow Shock (3D)", "md_examples.html#autotoc_md104", [
-        [ "Final Condition", "md_examples.html#autotoc_md105", null ]
+      [ "IBM Bow Shock (3D)", "md_examples.html#autotoc_md105", [
+        [ "Final Condition", "md_examples.html#autotoc_md106", null ]
       ] ]
     ] ],
-    [ "Performance", "md_expectedPerformance.html", [
-      [ "Figure of merit: Grind time performance", "md_expectedPerformance.html#autotoc_md107", null ],
-      [ "Weak scaling", "md_expectedPerformance.html#autotoc_md108", [
-        [ "AMD MI250X GPU", "md_expectedPerformance.html#autotoc_md109", null ],
-        [ "NVIDIA V100 GPU", "md_expectedPerformance.html#autotoc_md110", null ],
-        [ "IBM Power9 CPU", "md_expectedPerformance.html#autotoc_md111", null ]
-      ] ],
-      [ "Strong scaling", "md_expectedPerformance.html#autotoc_md112", [
-        [ "NVIDIA V100 GPU", "md_expectedPerformance.html#autotoc_md113", [
-          [ "16M Grid Points", "md_expectedPerformance.html#autotoc_md114", null ],
-          [ "64M Grid Points", "md_expectedPerformance.html#autotoc_md115", null ]
+    [ "expectedPerformance", "md_expectedPerformance.html", [
+      [ "Expected Performance", "md_expectedPerformance.html#expectedPerformance", [
+        [ "Figure of merit: Grind time performance", "md_expectedPerformance.html#autotoc_md107", null ],
+        [ "Weak scaling", "md_expectedPerformance.html#autotoc_md108", [
+          [ "AMD MI250X GPU", "md_expectedPerformance.html#autotoc_md109", null ],
+          [ "NVIDIA V100 GPU", "md_expectedPerformance.html#autotoc_md110", null ],
+          [ "IBM Power9 CPU", "md_expectedPerformance.html#autotoc_md111", null ]
         ] ],
-        [ "IBM Power9 CPU", "md_expectedPerformance.html#autotoc_md116", null ]
+        [ "Strong scaling", "md_expectedPerformance.html#autotoc_md112", [
+          [ "NVIDIA V100 GPU", "md_expectedPerformance.html#autotoc_md113", [
+            [ "16M Grid Points", "md_expectedPerformance.html#autotoc_md114", null ],
+            [ "64M Grid Points", "md_expectedPerformance.html#autotoc_md115", null ]
+          ] ],
+          [ "IBM Power9 CPU", "md_expectedPerformance.html#autotoc_md116", null ]
+        ] ]
       ] ]
     ] ],
     [ "Getting Started", "md_getting-started.html", [
@@ -250,7 +252,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"bench.html"
+"index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
