@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['benchmarking_0',['Continuous Benchmarking',['../ContinuousBenchmarking.html',1,'Performance']]]
+  ['benchmarking_0',['Continuous Benchmarking',['../ContinuousBenchmarking.html',1,'']]]
 ];
