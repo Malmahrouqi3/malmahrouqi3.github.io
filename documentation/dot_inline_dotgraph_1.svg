@@ -58,22 +58,16 @@ var viewHeight = 980;
 <!-- Bootstrap -->
 <g id="node1" class="node">
 <title>Bootstrap</title>
-<g id="a_node1"><a xlink:href="" target="_top" xlink:title="Bootstrap">
 <polygon fill="none" stroke="black" stroke-width="2" points="465,-972 401,-972 401,-936 465,-936 465,-972"/>
 <text text-anchor="middle" x="433" y="-951.5" font-family="Open Sans" font-size="10.00">Bootstrap</text>
-</a>
-</g>
 </g>
 <!-- ALox -->
 <g id="node2" class="node">
 <title>ALox</title>
-<g id="a_node2"><a xlink:href="" target="_top" xlink:title="ALox">
 <polygon fill="none" stroke="chocolate" stroke-width="2" points="433,-828 379,-828 379,-824 375,-824 375,-820 379,-820 379,-800 375,-800 375,-796 379,-796 379,-792 433,-792 433,-828"/>
 <polyline fill="none" stroke="chocolate" stroke-width="2" points="379,-824 383,-824 383,-820 379,-820 "/>
 <polyline fill="none" stroke="chocolate" stroke-width="2" points="379,-800 383,-800 383,-796 379,-796 "/>
 <text text-anchor="middle" x="406" y="-807.5" font-family="Open Sans" font-size="10.00">ALox</text>
-</a>
-</g>
 </g>
 <!-- Bootstrap&#45;&gt;ALox -->
 <g id="edge1" class="edge">
@@ -84,13 +78,10 @@ var viewHeight = 980;
 <!-- CLI -->
 <g id="node4" class="node">
 <title>CLI</title>
-<g id="a_node4"><a xlink:href="" target="_top" xlink:title="CLI">
 <polygon fill="none" stroke="chocolate" stroke-width="2" points="361,-828 307,-828 307,-824 303,-824 303,-820 307,-820 307,-800 303,-800 303,-796 307,-796 307,-792 361,-792 361,-828"/>
 <polyline fill="none" stroke="chocolate" stroke-width="2" points="307,-824 311,-824 311,-820 307,-820 "/>
 <polyline fill="none" stroke="chocolate" stroke-width="2" points="307,-800 311,-800 311,-796 307,-796 "/>
 <text text-anchor="middle" x="334" y="-807.5" font-family="Open Sans" font-size="10.00">CLI</text>
-</a>
-</g>
 </g>
 <!-- Bootstrap&#45;&gt;CLI -->
 <g id="edge2" class="edge">
@@ -101,13 +92,10 @@ var viewHeight = 980;
 <!-- Expressions -->
 <g id="node5" class="node">
 <title>Expressions</title>
-<g id="a_node5"><a xlink:href="" target="_top" xlink:title="Expressions">
 <polygon fill="none" stroke="chocolate" stroke-width="2" points="564.5,-828 489.5,-828 489.5,-824 485.5,-824 485.5,-820 489.5,-820 489.5,-800 485.5,-800 485.5,-796 489.5,-796 489.5,-792 564.5,-792 564.5,-828"/>
 <polyline fill="none" stroke="chocolate" stroke-width="2" points="489.5,-824 493.5,-824 493.5,-820 489.5,-820 "/>
 <polyline fill="none" stroke="chocolate" stroke-width="2" points="489.5,-800 493.5,-800 493.5,-796 489.5,-796 "/>
 <text text-anchor="middle" x="527" y="-807.5" font-family="Open Sans" font-size="10.00">Expressions</text>
-</a>
-</g>
 </g>
 <!-- Bootstrap&#45;&gt;Expressions -->
 <g id="edge3" class="edge">
@@ -118,13 +106,10 @@ var viewHeight = 980;
 <!-- Files -->
 <g id="node6" class="node">
 <title>Files</title>
-<g id="a_node6"><a xlink:href="" target="_top" xlink:title="Files">
 <polygon fill="none" stroke="chocolate" stroke-width="2" points="488,-900 434,-900 434,-896 430,-896 430,-892 434,-892 434,-872 430,-872 430,-868 434,-868 434,-864 488,-864 488,-900"/>
 <polyline fill="none" stroke="chocolate" stroke-width="2" points="434,-896 438,-896 438,-892 434,-892 "/>
 <polyline fill="none" stroke="chocolate" stroke-width="2" points="434,-872 438,-872 438,-868 434,-868 "/>
 <text text-anchor="middle" x="461" y="-879.5" font-family="Open Sans" font-size="10.00">Files</text>
-</a>
-</g>
 </g>
 <!-- Bootstrap&#45;&gt;Files -->
 <g id="edge4" class="edge">
@@ -135,13 +120,10 @@ var viewHeight = 980;
 <!-- Camp -->
 <g id="node3" class="node">
 <title>Camp</title>
-<g id="a_node3"><a xlink:href="" target="_top" xlink:title="Camp">
 <polygon fill="none" stroke="#8b4513" stroke-width="2" points="460,-756 406,-756 406,-752 402,-752 402,-748 406,-748 406,-728 402,-728 402,-724 406,-724 406,-720 460,-720 460,-756"/>
 <polyline fill="none" stroke="#8b4513" stroke-width="2" points="406,-752 410,-752 410,-748 406,-748 "/>
 <polyline fill="none" stroke="#8b4513" stroke-width="2" points="406,-728 410,-728 410,-724 406,-724 "/>
 <text text-anchor="middle" x="433" y="-735.5" font-family="Open Sans" font-size="10.00">Camp</text>
-</a>
-</g>
 </g>
 <!-- ALox&#45;&gt;Camp -->
 <g id="edge10" class="edge">
@@ -152,11 +134,8 @@ var viewHeight = 980;
 <!-- Format -->
 <g id="node7" class="node">
 <title>Format</title>
-<g id="a_node7"><a xlink:href="" target="_top" xlink:title="Format">
 <polygon fill="none" stroke="#104e8b" points="314,-612 260,-612 260,-576 314,-576 314,-612"/>
 <text text-anchor="middle" x="287" y="-591.5" font-family="Open Sans" font-size="10.00">Format</text>
-</a>
-</g>
 </g>
 <!-- Camp&#45;&gt;Format -->
 <g id="edge14" class="edge">
@@ -167,11 +146,8 @@ var viewHeight = 980;
 <!-- Variables -->
 <g id="node11" class="node">
 <title>Variables</title>
-<g id="a_node11"><a xlink:href="" target="_top" xlink:title="Variables">
 <polygon fill="none" stroke="#104e8b" points="516,-684 454,-684 454,-648 516,-648 516,-684"/>
 <text text-anchor="middle" x="485" y="-663.5" font-family="Open Sans" font-size="10.00">Variables</text>
-</a>
-</g>
 </g>
 <!-- Camp&#45;&gt;Variables -->
 <g id="edge15" class="edge">
@@ -212,11 +188,8 @@ var viewHeight = 980;
 <!-- Exceptions -->
 <g id="node8" class="node">
 <title>Exceptions</title>
-<g id="a_node8"><a xlink:href="" target="_top" xlink:title="Exceptions">
 <polygon fill="none" stroke="#104e8b" points="288,-540 218,-540 218,-504 288,-504 288,-540"/>
 <text text-anchor="middle" x="253" y="-519.5" font-family="Open Sans" font-size="10.00">Exceptions</text>
-</a>
-</g>
 </g>
 <!-- Format&#45;&gt;Exceptions -->
 <g id="edge16" class="edge">
@@ -227,11 +200,8 @@ var viewHeight = 980;
 <!-- Resources -->
 <g id="node9" class="node">
 <title>Resources</title>
-<g id="a_node9"><a xlink:href="" target="_top" xlink:title="Resources">
 <polygon fill="none" stroke="#104e8b" points="128.5,-468 61.5,-468 61.5,-432 128.5,-432 128.5,-468"/>
 <text text-anchor="middle" x="95" y="-447.5" font-family="Open Sans" font-size="10.00">Resources</text>
-</a>
-</g>
 </g>
 <!-- Exceptions&#45;&gt;Resources -->
 <g id="edge17" class="edge">
@@ -242,11 +212,8 @@ var viewHeight = 980;
 <!-- Boxing -->
 <g id="node14" class="node">
 <title>Boxing</title>
-<g id="a_node14"><a xlink:href="" target="_top" xlink:title="Boxing">
 <polygon fill="none" stroke="#104e8b" points="405,-324 351,-324 351,-288 405,-288 405,-324"/>
 <text text-anchor="middle" x="378" y="-303.5" font-family="Open Sans" font-size="10.00">Boxing</text>
-</a>
-</g>
 </g>
 <!-- Exceptions&#45;&gt;Boxing -->
 <g id="edge18" class="edge">
@@ -257,11 +224,8 @@ var viewHeight = 980;
 <!-- EnumRecords -->
 <g id="node15" class="node">
 <title>EnumRecords</title>
-<g id="a_node15"><a xlink:href="" target="_top" xlink:title="EnumRecords">
 <polygon fill="none" stroke="#104e8b" points="305.5,-396 222.5,-396 222.5,-360 305.5,-360 305.5,-396"/>
 <text text-anchor="middle" x="264" y="-375.5" font-family="Open Sans" font-size="10.00">EnumRecords</text>
-</a>
-</g>
 </g>
 <!-- Exceptions&#45;&gt;EnumRecords -->
 <g id="edge19" class="edge">
@@ -272,11 +236,8 @@ var viewHeight = 980;
 <!-- Monomem -->
 <g id="node12" class="node">
 <title>Monomem</title>
-<g id="a_node12"><a xlink:href="" target="_top" xlink:title="Monomem">
 <polygon fill="none" stroke="#104e8b" points="502.5,-36 433.5,-36 433.5,0 502.5,0 502.5,-36"/>
 <text text-anchor="middle" x="468" y="-15.5" font-family="Open Sans" font-size="10.00">Monomem</text>
-</a>
-</g>
 </g>
 <!-- Resources&#45;&gt;Monomem -->
 <g id="edge22" class="edge">
@@ -287,11 +248,8 @@ var viewHeight = 980;
 <!-- Containers -->
 <g id="node13" class="node">
 <title>Containers</title>
-<g id="a_node13"><a xlink:href="" target="_top" xlink:title="Containers">
 <polygon fill="none" stroke="#104e8b" points="399.5,-180 330.5,-180 330.5,-144 399.5,-144 399.5,-180"/>
 <text text-anchor="middle" x="365" y="-159.5" font-family="Open Sans" font-size="10.00">Containers</text>
-</a>
-</g>
 </g>
 <!-- Resources&#45;&gt;Containers -->
 <g id="edge23" class="edge">
@@ -308,11 +266,8 @@ var viewHeight = 980;
 <!-- Strings -->
 <g id="node16" class="node">
 <title>Strings</title>
-<g id="a_node16"><a xlink:href="" target="_top" xlink:title="Strings">
 <polygon fill="none" stroke="#104e8b" points="453,-108 399,-108 399,-72 453,-72 453,-108"/>
 <text text-anchor="middle" x="426" y="-87.5" font-family="Open Sans" font-size="10.00">Strings</text>
-</a>
-</g>
 </g>
 <!-- Resources&#45;&gt;Strings -->
 <g id="edge24" class="edge">
@@ -323,11 +278,8 @@ var viewHeight = 980;
 <!-- System -->
 <g id="node10" class="node">
 <title>System</title>
-<g id="a_node10"><a xlink:href="" target="_top" xlink:title="System">
 <polygon fill="none" stroke="#104e8b" points="417,-612 363,-612 363,-576 417,-576 417,-612"/>
 <text text-anchor="middle" x="390" y="-591.5" font-family="Open Sans" font-size="10.00">System</text>
-</a>
-</g>
 </g>
 <!-- System&#45;&gt;Exceptions -->
 <g id="edge48" class="edge">
@@ -404,11 +356,8 @@ var viewHeight = 980;
 <!-- Singletons -->
 <g id="node19" class="node">
 <title>Singletons</title>
-<g id="a_node19"><a xlink:href="" target="_top" xlink:title="Singletons">
 <polygon fill="none" stroke="#104e8b" points="400,-252 332,-252 332,-216 400,-216 400,-252"/>
 <text text-anchor="middle" x="366" y="-231.5" font-family="Open Sans" font-size="10.00">Singletons</text>
-</a>
-</g>
 </g>
 <!-- Boxing&#45;&gt;Singletons -->
 <g id="edge30" class="edge">
@@ -455,11 +404,8 @@ var viewHeight = 980;
 <!-- ThreadModel -->
 <g id="node17" class="node">
 <title>ThreadModel</title>
-<g id="a_node17"><a xlink:href="" target="_top" xlink:title="ThreadModel">
 <polygon fill="none" stroke="#104e8b" stroke-width="2" points="506,-468 426,-468 426,-432 506,-432 506,-468"/>
 <text text-anchor="middle" x="466" y="-447.5" font-family="Open Sans" font-size="10.00">ThreadModel</text>
-</a>
-</g>
 </g>
 <!-- ThreadModel&#45;&gt;Monomem -->
 <g id="edge27" class="edge">
@@ -494,11 +440,8 @@ var viewHeight = 980;
 <!-- BitBuffer -->
 <g id="node18" class="node">
 <title>BitBuffer</title>
-<g id="a_node18"><a xlink:href="" target="_top" xlink:title="BitBuffer">
 <polygon fill="none" stroke="#104e8b" stroke-width="2" points="205.5,-468 146.5,-468 146.5,-432 205.5,-432 205.5,-468"/>
 <text text-anchor="middle" x="176" y="-447.5" font-family="Open Sans" font-size="10.00">BitBuffer</text>
-</a>
-</g>
 </g>
 <!-- BitBuffer&#45;&gt;Monomem -->
 <g id="edge25" class="edge">
