@@ -179,6 +179,563 @@ Features</h1>
 <p>The following diagram displays feature-mapping hierarchy. To properly setup, ensure there is a direct correlation from parent feature to sub-features.</p>
 <div class="dotgraph">
 <iframe scrolling="no" frameborder="0" src="dot_inline_dotgraph_1.svg" width="936" height="1307"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<p> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feature Compatibility Map</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        
+        .content {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 0;
+            height: 700px;
+        }
+        
+        .sidebar {
+            background: #f8f9fa;
+            padding: 25px;
+            border-right: 1px solid #e0e0e0;
+            overflow-y: auto;
+        }
+        
+        .sidebar h2 {
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        
+        .sidebar .subtitle {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .selected-path {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .selected-path h3 {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .path-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            margin-bottom: 6px;
+            font-size: 13px;
+        }
+        
+        .path-item .number {
+            background: #667eea;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 11px;
+            flex-shrink: 0;
+        }
+        
+        .path-item .remove-btn {
+            margin-left: auto;
+            background: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 4px 8px;
+            font-size: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            flex-shrink: 0;
+        }
+        
+        .path-item .remove-btn:hover {
+            background: #c82333;
+        }
+        
+        .stats {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        
+        .stats-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        
+        .stats-row:last-child {
+            margin-bottom: 0;
+        }
+        
+        .stats-label {
+            color: #666;
+        }
+        
+        .stats-value {
+            font-weight: 600;
+            color: #667eea;
+        }
+        
+        .reset-btn {
+            width: 100%;
+            padding: 12px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .reset-btn:hover {
+            background: #5568d3;
+            transform: translateY(-1px);
+        }
+        
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: #fafbfc;
+            overflow: hidden;
+        }
+        
+        #canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+        
+        .feature-node {
+            position: absolute;
+            padding: 15px 25px;
+            background: white;
+            border: 3px solid #e0e0e0;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-weight: 500;
+            font-size: 14px;
+            user-select: none;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            z-index: 10;
+        }
+        
+        .feature-node:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+        
+        .feature-node.selected {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: #667eea;
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+            transform: scale(1.1);
+        }
+        
+        .feature-node.compatible {
+            border-color: #28a745;
+            border-width: 3px;
+            animation: pulse 2s infinite;
+        }
+        
+        .feature-node.incompatible {
+            opacity: 0.3;
+            cursor: not-allowed;
+            filter: grayscale(100%);
+        }
+        
+        .feature-node.incompatible:hover {
+            transform: none;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 4px 16px rgba(40, 167, 69, 0.3);
+            }
+            50% {
+                box-shadow: 0 4px 20px rgba(40, 167, 69, 0.6);
+            }
+        }
+        
+        .connection-line {
+            position: absolute;
+            background: #28a745;
+            height: 3px;
+            transform-origin: 0 50%;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 1;
+        }
+        
+        .connection-line.visible {
+            opacity: 0.6;
+        }
+        
+        .legend {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+            font-size: 12px;
+            z-index: 100;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+        
+        .legend-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .legend-color {
+            width: 30px;
+            height: 20px;
+            border-radius: 4px;
+            border: 2px solid;
+        }
+        
+        .legend-color.selected {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-color: #667eea;
+        }
+        
+        .legend-color.compatible {
+            background: white;
+            border-color: #28a745;
+            border-width: 3px;
+        }
+        
+        .legend-color.incompatible {
+            background: #e0e0e0;
+            border-color: #e0e0e0;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗺️ Feature Compatibility Map</h1>
+            <p>Click features to build a compatible configuration path</p>
+        </div>
+        
+        <div class="content">
+            <div class="sidebar">
+                <h2>Selection Path</h2>
+                <p class="subtitle">Features selected in order</p>
+                
+                <div class="selected-path" id="selectedPath" style="display: none;">
+                    <h3>Current Path:</h3>
+                    <div id="pathList"></div>
+                </div>
+                
+                <div class="stats" id="stats">
+                    <div class="stats-row">
+                        <span class="stats-label">Selected:</span>
+                        <span class="stats-value" id="selectedCount">0</span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Available:</span>
+                        <span class="stats-value" id="availableCount">8</span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Total:</span>
+                        <span class="stats-value" id="totalCount">8</span>
+                    </div>
+                </div>
+                
+                <button class="reset-btn" onclick="resetSelection()">Start Over</button>
+            </div>
+            
+            <div class="map-container" id="mapContainer">
+                <canvas id="canvas"></canvas>
+                <div id="featureNodes"></div>
+                
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color selected"></div>
+                        <span>Selected</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color compatible"></div>
+                        <span>Compatible</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color incompatible"></div>
+                        <span>Unavailable</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Define features and their positions on the map
+        const features = [
+            { id: 'A', name: 'Feature A', x: 15, y: 20 },
+            { id: 'B', name: 'Feature B', x: 45, y: 15 },
+            { id: 'C', name: 'Feature C', x: 75, y: 20 },
+            { id: 'D', name: 'Feature D', x: 25, y: 50 },
+            { id: 'E', name: 'Feature E', x: 55, y: 45 },
+            { id: 'F', name: 'Feature F', x: 85, y: 55 },
+            { id: 'G', name: 'Feature G', x: 35, y: 80 },
+            { id: 'H', name: 'Feature H', x: 70, y: 85 }
+        ];
+        
+        // Compatibility matrix
+        const compatibility = {
+            'A': ['A', 'B', 'D', 'E', 'G'],
+            'B': ['A', 'B', 'C', 'E', 'F', 'H'],
+            'C': ['B', 'C', 'F', 'H'],
+            'D': ['A', 'D', 'E', 'G'],
+            'E': ['A', 'B', 'D', 'E', 'F', 'G', 'H'],
+            'F': ['B', 'C', 'E', 'F', 'H'],
+            'G': ['A', 'D', 'E', 'G'],
+            'H': ['B', 'C', 'E', 'F', 'H']
+        };
+        
+        let selectedFeatures = [];
+        let availableFeatures = features.map(f => f.id);
+        let featureElements = {};
+        
+        function initMap() {
+            const container = document.getElementById('mapContainer');
+            const nodesContainer = document.getElementById('featureNodes');
+            const rect = container.getBoundingClientRect();
+            
+            features.forEach(feature => {
+                const node = document.createElement('div');
+                node.className = 'feature-node';
+                node.textContent = feature.name;
+                node.style.left = `${feature.x}%`;
+                node.style.top = `${feature.y}%`;
+                node.style.transform = 'translate(-50%, -50%)';
+                node.onclick = () => selectFeature(feature.id);
+                
+                nodesContainer.appendChild(node);
+                featureElements[feature.id] = node;
+            });
+            
+            updateStats();
+        }
+        
+        function selectFeature(featureId) {
+            // Check if feature is available
+            if (!availableFeatures.includes(featureId)) return;
+            
+            selectedFeatures.push(featureId);
+            updateAvailableFeatures();
+            updateUI();
+        }
+        
+        function updateAvailableFeatures() {
+            if (selectedFeatures.length === 0) {
+                availableFeatures = features.map(f => f.id);
+                return;
+            }
+            
+            // Find features compatible with ALL selected features
+            availableFeatures = features
+                .map(f => f.id)
+                .filter(id => {
+                    if (selectedFeatures.includes(id)) return false;
+                    return selectedFeatures.every(selected => 
+                        compatibility[selected].includes(id)
+                    );
+                });
+        }
+        
+        function removeFeature(index) {
+            selectedFeatures = selectedFeatures.slice(0, index);
+            updateAvailableFeatures();
+            updateUI();
+        }
+        
+        function updateUI() {
+            updateNodeStates();
+            updateSelectedPath();
+            updateStats();
+            drawConnections();
+        }
+        
+        function updateNodeStates() {
+            features.forEach(feature => {
+                const node = featureElements[feature.id];
+                const isSelected = selectedFeatures.includes(feature.id);
+                const isAvailable = availableFeatures.includes(feature.id);
+                
+                node.classList.remove('selected', 'compatible', 'incompatible');
+                
+                if (isSelected) {
+                    node.classList.add('selected');
+                } else if (isAvailable) {
+                    node.classList.add('compatible');
+                } else {
+                    node.classList.add('incompatible');
+                }
+            });
+        }
+        
+        function updateSelectedPath() {
+            const pathPanel = document.getElementById('selectedPath');
+            const pathList = document.getElementById('pathList');
+            
+            if (selectedFeatures.length === 0) {
+                pathPanel.style.display = 'none';
+                return;
+            }
+            
+            pathPanel.style.display = 'block';
+            pathList.innerHTML = '';
+            
+            selectedFeatures.forEach((featureId, index) => {
+                const feature = features.find(f => f.id === featureId);
+                const item = document.createElement('div');
+                item.className = 'path-item';
+                item.innerHTML = `
+                    <span class="number">${index + 1}</span>
+                    <span style="flex: 1;">${feature.name}</span>
+                    <button class="remove-btn" onclick="removeFeature(${index})">×</button>
+                `;
+                pathList.appendChild(item);
+            });
+        }
+        
+        function updateStats() {
+            document.getElementById('selectedCount').textContent = selectedFeatures.length;
+            document.getElementById('availableCount').textContent = availableFeatures.length;
+            document.getElementById('totalCount').textContent = features.length;
+        }
+        
+        function drawConnections() {
+            const canvas = document.getElementById('canvas');
+            const container = document.getElementById('mapContainer');
+            const rect = container.getBoundingClientRect();
+            
+            canvas.width = rect.width;
+            canvas.height = rect.height;
+            
+            const ctx = canvas.getContext('2d');
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            if (selectedFeatures.length === 0) return;
+            
+            // Draw lines from selected features to available features
+            selectedFeatures.forEach(selectedId => {
+                const selectedFeature = features.find(f => f.id === selectedId);
+                const selectedNode = featureElements[selectedId];
+                const selectedRect = selectedNode.getBoundingClientRect();
+                const startX = selectedRect.left - rect.left + selectedRect.width / 2;
+                const startY = selectedRect.top - rect.top + selectedRect.height / 2;
+                
+                availableFeatures.forEach(availableId => {
+                    if (compatibility[selectedId].includes(availableId)) {
+                        const availableFeature = features.find(f => f.id === availableId);
+                        const availableNode = featureElements[availableId];
+                        const availableRect = availableNode.getBoundingClientRect();
+                        const endX = availableRect.left - rect.left + availableRect.width / 2;
+                        const endY = availableRect.top - rect.top + availableRect.height / 2;
+                        
+                        ctx.strokeStyle = '#28a745';
+                        ctx.lineWidth = 2;
+                        ctx.globalAlpha = 0.3;
+                        ctx.beginPath();
+                        ctx.moveTo(startX, startY);
+                        ctx.lineTo(endX, endY);
+                        ctx.stroke();
+                    }
+                });
+            });
+            
+            ctx.globalAlpha = 1;
+        }
+        
+        function resetSelection() {
+            selectedFeatures = [];
+            availableFeatures = features.map(f => f.id);
+            updateUI();
+        }
+        
+        // Initialize
+        initMap();
+    </script>
+</body>
+</html>
+</p>
 <h1><a class="anchor" id="autotoc_md5"></a>
 Parameters</h1>
 <p>There are multiple sets of parameters that must be specified in the python input file:</p><ol type="1">
