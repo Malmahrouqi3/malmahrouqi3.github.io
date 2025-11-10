@@ -182,223 +182,212 @@ Features</h1>
 <p> 
 
 
-<div class="container" style="max-width:1200px; margin:0 auto; border-radius:12px; overflow:hidden;">
-  <div class="content" style="height:700px; display:block;">
-    <div class="map-container" id="mapContainer" style="position:relative; width:100%; height:700px; background:transparent;">
-      <canvas id="canvas" style="position:absolute; top:0; left:0; width:100%; height:100%;"></canvas>
-      <div id="featureNodes" style="position:relative; width:100%; height:100%;"></div>
-    </div>
-  </div>
+<div id="features-map" style="max-width:900px;margin:16px auto;border-radius:8px;overflow:hidden;">
+<div id="mapContainer" style="position:relative;width:100%;height:480px;background:transparent;">
+    <canvas id="canvas" style="position:absolute;inset:0;width:100%;height:100%;"></canvas>
+    <div id="featureNodes" style="position:relative;width:100%;height:100%;"></div>
+    <button id="resetBtn" style="position:absolute;right:10px;top:10px;z-index:30;padding:6px 10px;border-radius:6px;border:1px solid #ddd;background:#fff;cursor:pointer;">Reset</button>
+</div>
 </div>
 
 <style>
-  .feature-node {
-    position: absolute;
-    padding: 12px 20px;
-    border-radius: 28px;
-    cursor: pointer;
-    transition: transform .18s ease, box-shadow .18s ease, opacity .18s ease;
-    font-weight: 600;
-    font-size: 13px;
-    user-select: none;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-    z-index: 10;
-    border: 2px solid transparent;
-  }
-  .feature-node.compatible { border-color:#28a745; box-shadow:0 6px 18px rgba(40,167,69,0.08); }
-  .feature-node.incompatible { opacity:.35; filter:grayscale(80%); cursor:not-allowed; transform:none; box-shadow:none; }
-  .feature-node.selected { background:#5568d3; color:#fff; border-color:#3f51b5; box-shadow:0 8px 24px rgba(85,104,211,0.18); transform:translate(-50%,-50%) scale(1.02); }
+.feature-node{
+    position:absolute;padding:10px 14px;border-radius:999px;font-weight:600;font-size:13px;
+    transform:translate(-50%,-50%);cursor:pointer;z-index:20;background:#fff;border:2px solid transparent;
+    box-shadow:0 4px 14px rgba(0,0,0,0.06);white-space:nowrap;
+}
+.feature-node.compatible{border-color:#28a745;opacity:1}
+.feature-node.incompatible{opacity:.28;filter:grayscale(.6);cursor:not-allowed}
+.feature-node.selected{background:#5568d3;color:#fff;border-color:#3f51b5;box-shadow:0 8px 24px rgba(85,104,211,.18)}
 </style>
-  <script>
-      // Define features and their positions on the map
-      const features = [
-          { id: 'A', name: 'Feature A', x: 15, y: 20 },
-          { id: 'B', name: 'Feature B', x: 45, y: 15 },
-          { id: 'C', name: 'Feature C', x: 75, y: 20 },
-          { id: 'D', name: 'Feature D', x: 25, y: 50 },
-          { id: 'E', name: 'Feature E', x: 55, y: 45 },
-          { id: 'F', name: 'Feature F', x: 85, y: 55 },
-          { id: 'G', name: 'Feature G', x: 35, y: 80 },
-          { id: 'H', name: 'Feature H', x: 70, y: 85 }
-      ];
-      
-      // Compatibility matrix
-      const compatibility = {
-          'A': ['A', 'B', 'D', 'E', 'G'],
-          'B': ['A', 'B', 'C', 'E', 'F', 'H'],
-          'C': ['B', 'C', 'F', 'H'],
-          'D': ['A', 'D', 'E', 'G'],
-          'E': ['A', 'B', 'D', 'E', 'F', 'G', 'H'],
-          'F': ['B', 'C', 'E', 'F', 'H'],
-          'G': ['A', 'D', 'E', 'G'],
-          'H': ['B', 'C', 'E', 'F', 'H']
-      };
-      
-      let selectedFeatures = [];
-      let availableFeatures = features.map(f => f.id);
-      let featureElements = {};
-      
-      function initMap() {
-          const container = document.getElementById('mapContainer');
-          const nodesContainer = document.getElementById('featureNodes');
-          const rect = container.getBoundingClientRect();
-          
-          features.forEach(feature => {
-              const node = document.createElement('div');
-              node.className = 'feature-node';
-              node.textContent = feature.name;
-              node.style.left = `${feature.x}%`;
-              node.style.top = `${feature.y}%`;
-              node.style.transform = 'translate(-50%, -50%)';
-              node.onclick = () => selectFeature(feature.id);
-              
-              nodesContainer.appendChild(node);
-              featureElements[feature.id] = node;
-          });
-          
-          updateStats();
-      }
-      
-      function selectFeature(featureId) {
-          if (!availableFeatures.includes(featureId)) return;
-          
-          selectedFeatures.push(featureId);
-          updateAvailableFeatures();
-          updateUI();
-      }
-      
-      function updateAvailableFeatures() {
-          if (selectedFeatures.length === 0) {
-              availableFeatures = features.map(f => f.id);
-              return;
-          }
-          
-          availableFeatures = features
-              .map(f => f.id)
-              .filter(id => {
-                  if (selectedFeatures.includes(id)) return false;
-                  return selectedFeatures.every(selected => 
-                      compatibility[selected].includes(id)
-                  );
-              });
-      }
-      
-      function removeFeature(index) {
-          selectedFeatures = selectedFeatures.slice(0, index);
-          updateAvailableFeatures();
-          updateUI();
-      }
-      
-      function updateUI() {
-          updateNodeStates();
-          updateSelectedPath();
-          updateStats();
-          drawConnections();
-      }
-      
-      function updateNodeStates() {
-          features.forEach(feature => {
-              const node = featureElements[feature.id];
-              const isSelected = selectedFeatures.includes(feature.id);
-              const isAvailable = availableFeatures.includes(feature.id);
-              
-              node.classList.remove('selected', 'compatible', 'incompatible');
-              
-              if (isSelected) {
-                  node.classList.add('selected');
-              } else if (isAvailable) {
-                  node.classList.add('compatible');
-              } else {
-                  node.classList.add('incompatible');
-              }
-          });
-      }
-      
-      function updateSelectedPath() {
-          const pathPanel = document.getElementById('selectedPath');
-          const pathList = document.getElementById('pathList');
-          
-          if (selectedFeatures.length === 0) {
-              pathPanel.style.display = 'none';
-              return;
-          }
-          
-          pathPanel.style.display = 'block';
-          pathList.innerHTML = '';
-          
-          selectedFeatures.forEach((featureId, index) => {
-              const feature = features.find(f => f.id === featureId);
-              const item = document.createElement('div');
-              item.className = 'path-item';
-              item.innerHTML = `
-                  <span class="number">${index + 1}</span>
-                  <span style="flex: 1;">${feature.name}</span>
-                  <button class="remove-btn" onclick="removeFeature(${index})">×</button>
-              `;
-              pathList.appendChild(item);
-          });
-      }
-      
-      function updateStats() {
-          document.getElementById('selectedCount').textContent = selectedFeatures.length;
-          document.getElementById('availableCount').textContent = availableFeatures.length;
-          document.getElementById('totalCount').textContent = features.length;
-      }
-      
-      function drawConnections() {
-          const canvas = document.getElementById('canvas');
-          const container = document.getElementById('mapContainer');
-          const rect = container.getBoundingClientRect();
-          
-          canvas.width = rect.width;
-          canvas.height = rect.height;
-          
-          const ctx = canvas.getContext('2d');
-          ctx.clearRect(0, 0, canvas.width, canvas.height);
-          
-          if (selectedFeatures.length === 0) return;
-          
-          selectedFeatures.forEach(selectedId => {
-              const selectedFeature = features.find(f => f.id === selectedId);
-              const selectedNode = featureElements[selectedId];
-              const selectedRect = selectedNode.getBoundingClientRect();
-              const startX = selectedRect.left - rect.left + selectedRect.width / 2;
-              const startY = selectedRect.top - rect.top + selectedRect.height / 2;
-              
-              availableFeatures.forEach(availableId => {
-                  if (compatibility[selectedId].includes(availableId)) {
-                      const availableFeature = features.find(f => f.id === availableId);
-                      const availableNode = featureElements[availableId];
-                      const availableRect = availableNode.getBoundingClientRect();
-                      const endX = availableRect.left - rect.left + availableRect.width / 2;
-                      const endY = availableRect.top - rect.top + availableRect.height / 2;
-                      
-                      ctx.strokeStyle = '#28a745';
-                      ctx.lineWidth = 2;
-                      ctx.globalAlpha = 0.3;
-                      ctx.beginPath();
-                      ctx.moveTo(startX, startY);
-                      ctx.lineTo(endX, endY);
-                      ctx.stroke();
-                  }
-              });
-          });
-          
-          ctx.globalAlpha = 1;
-      }
-      
-      function resetSelection() {
-          selectedFeatures = [];
-          availableFeatures = features.map(f => f.id);
-          updateUI();
-      }
-      
-      // Initialize
-      initMap();
-  </script>
-</body>
+
+<script>
+    // Define features and their positions on the map
+    const features = [
+        { id: 'A', name: 'Feature A', x: 15, y: 20 },
+        { id: 'B', name: 'Feature B', x: 45, y: 15 },
+        { id: 'C', name: 'Feature C', x: 75, y: 20 },
+        { id: 'D', name: 'Feature D', x: 25, y: 50 },
+        { id: 'E', name: 'Feature E', x: 55, y: 45 },
+        { id: 'F', name: 'Feature F', x: 85, y: 55 },
+        { id: 'G', name: 'Feature G', x: 35, y: 80 },
+        { id: 'H', name: 'Feature H', x: 70, y: 85 }
+    ];
+    
+    // Compatibility matrix
+    const compatibility = {
+        'A': ['A', 'B', 'D', 'E', 'G'],
+        'B': ['A', 'B', 'C', 'E', 'F', 'H'],
+        'C': ['B', 'C', 'F', 'H'],
+        'D': ['A', 'D', 'E', 'G'],
+        'E': ['A', 'B', 'D', 'E', 'F', 'G', 'H'],
+        'F': ['B', 'C', 'E', 'F', 'H'],
+        'G': ['A', 'D', 'E', 'G'],
+        'H': ['B', 'C', 'E', 'F', 'H']
+    };
+    
+    let selectedFeatures = [];
+    let availableFeatures = features.map(f => f.id);
+    let featureElements = {};
+    
+    function initMap() {
+        const container = document.getElementById('mapContainer');
+        const nodesContainer = document.getElementById('featureNodes');
+        const rect = container.getBoundingClientRect();
+        
+        features.forEach(feature => {
+            const node = document.createElement('div');
+            node.className = 'feature-node';
+            node.textContent = feature.name;
+            node.style.left = `${feature.x}%`;
+            node.style.top = `${feature.y}%`;
+            node.style.transform = 'translate(-50%, -50%)';
+            node.onclick = () => selectFeature(feature.id);
+            
+            nodesContainer.appendChild(node);
+            featureElements[feature.id] = node;
+        });
+        
+        updateStats();
+    }
+    
+    function selectFeature(featureId) {
+        if (!availableFeatures.includes(featureId)) return;
+        
+        selectedFeatures.push(featureId);
+        updateAvailableFeatures();
+        updateUI();
+    }
+    
+    function updateAvailableFeatures() {
+        if (selectedFeatures.length === 0) {
+            availableFeatures = features.map(f => f.id);
+            return;
+        }
+        
+        availableFeatures = features
+            .map(f => f.id)
+            .filter(id => {
+                if (selectedFeatures.includes(id)) return false;
+                return selectedFeatures.every(selected => 
+                    compatibility[selected].includes(id)
+                );
+            });
+    }
+    
+    function removeFeature(index) {
+        selectedFeatures = selectedFeatures.slice(0, index);
+        updateAvailableFeatures();
+        updateUI();
+    }
+    
+    function updateUI() {
+        updateNodeStates();
+        updateSelectedPath();
+        updateStats();
+        drawConnections();
+    }
+    
+    function updateNodeStates() {
+        features.forEach(feature => {
+            const node = featureElements[feature.id];
+            const isSelected = selectedFeatures.includes(feature.id);
+            const isAvailable = availableFeatures.includes(feature.id);
+            
+            node.classList.remove('selected', 'compatible', 'incompatible');
+            
+            if (isSelected) {
+                node.classList.add('selected');
+            } else if (isAvailable) {
+                node.classList.add('compatible');
+            } else {
+                node.classList.add('incompatible');
+            }
+        });
+    }
+    
+    function updateSelectedPath() {
+        const pathPanel = document.getElementById('selectedPath');
+        const pathList = document.getElementById('pathList');
+        
+        if (selectedFeatures.length === 0) {
+            pathPanel.style.display = 'none';
+            return;
+        }
+        
+        pathPanel.style.display = 'block';
+        pathList.innerHTML = '';
+        
+        selectedFeatures.forEach((featureId, index) => {
+            const feature = features.find(f => f.id === featureId);
+            const item = document.createElement('div');
+            item.className = 'path-item';
+            item.innerHTML = `
+                <span class="number">${index + 1}</span>
+                <span style="flex: 1;">${feature.name}</span>
+                <button class="remove-btn" onclick="removeFeature(${index})">×</button>
+            `;
+            pathList.appendChild(item);
+        });
+    }
+    
+    function updateStats() {
+        document.getElementById('selectedCount').textContent = selectedFeatures.length;
+        document.getElementById('availableCount').textContent = availableFeatures.length;
+        document.getElementById('totalCount').textContent = features.length;
+    }
+    
+    function drawConnections() {
+        const canvas = document.getElementById('canvas');
+        const container = document.getElementById('mapContainer');
+        const rect = container.getBoundingClientRect();
+        
+        canvas.width = rect.width;
+        canvas.height = rect.height;
+        
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        if (selectedFeatures.length === 0) return;
+        
+        selectedFeatures.forEach(selectedId => {
+            const selectedFeature = features.find(f => f.id === selectedId);
+            const selectedNode = featureElements[selectedId];
+            const selectedRect = selectedNode.getBoundingClientRect();
+            const startX = selectedRect.left - rect.left + selectedRect.width / 2;
+            const startY = selectedRect.top - rect.top + selectedRect.height / 2;
+            
+            availableFeatures.forEach(availableId => {
+                if (compatibility[selectedId].includes(availableId)) {
+                    const availableFeature = features.find(f => f.id === availableId);
+                    const availableNode = featureElements[availableId];
+                    const availableRect = availableNode.getBoundingClientRect();
+                    const endX = availableRect.left - rect.left + availableRect.width / 2;
+                    const endY = availableRect.top - rect.top + availableRect.height / 2;
+                    
+                    ctx.strokeStyle = '#28a745';
+                    ctx.lineWidth = 2;
+                    ctx.globalAlpha = 0.3;
+                    ctx.beginPath();
+                    ctx.moveTo(startX, startY);
+                    ctx.lineTo(endX, endY);
+                    ctx.stroke();
+                }
+            });
+        });
+        
+        ctx.globalAlpha = 1;
+    }
+    
+    function resetSelection() {
+        selectedFeatures = [];
+        availableFeatures = features.map(f => f.id);
+        updateUI();
+    }
+    
+    // Initialize
+    initMap();
+</script>
 
 </p>
 <h1><a class="anchor" id="autotoc_md5"></a>
