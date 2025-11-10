@@ -192,155 +192,26 @@ Features</h1>
             padding: 0;
             box-sizing: border-box;
         }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-        
+                
         .container {
             max-width: 1400px;
             margin: 0 auto;
-            background: white;
             border-radius: 12px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             overflow: hidden;
         }
-        
-        .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
-        
-        .header h1 {
-            font-size: 28px;
-            margin-bottom: 10px;
-        }
-        
-        .header p {
-            opacity: 0.9;
-            font-size: 14px;
-        }
-        
+                
         .content {
             display: grid;
             grid-template-columns: 280px 1fr;
             gap: 0;
             height: 700px;
         }
-        
-        .sidebar {
-            background: #f8f9fa;
-            padding: 25px;
-            border-right: 1px solid #e0e0e0;
-            overflow-y: auto;
-        }
-        
-        .sidebar h2 {
-            font-size: 18px;
-            margin-bottom: 5px;
-            color: #333;
-        }
-        
-        .sidebar .subtitle {
-            font-size: 12px;
-            color: #666;
-            margin-bottom: 20px;
-        }
-        
-        .selected-path {
-            background: white;
-            padding: 15px;
-            border-radius: 6px;
-            margin-bottom: 20px;
-            border-left: 4px solid #667eea;
-        }
-        
-        .selected-path h3 {
-            font-size: 14px;
-            color: #333;
-            margin-bottom: 10px;
-            font-weight: 600;
-        }
-        
-        .path-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding: 10px;
-            background: #f8f9fa;
-            border-radius: 4px;
-            margin-bottom: 6px;
-            font-size: 13px;
-        }
-        
-        .path-item .number {
-            background: #667eea;
-            color: white;
-            width: 24px;
-            height: 24px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 600;
-            font-size: 11px;
-            flex-shrink: 0;
-        }
-        
-        .path-item .remove-btn {
-            margin-left: auto;
-            background: #dc3545;
-            color: white;
-            border: none;
-            border-radius: 3px;
-            padding: 4px 8px;
-            font-size: 10px;
-            cursor: pointer;
-            transition: all 0.2s;
-            flex-shrink: 0;
-        }
-        
-        .path-item .remove-btn:hover {
-            background: #c82333;
-        }
-        
-        .stats {
-            background: white;
-            padding: 12px;
-            border-radius: 6px;
-            margin-bottom: 15px;
-            font-size: 13px;
-        }
-        
-        .stats-row {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 8px;
-        }
-        
-        .stats-row:last-child {
-            margin-bottom: 0;
-        }
-        
-        .stats-label {
-            color: #666;
-        }
-        
-        .stats-value {
-            font-weight: 600;
-            color: #667eea;
-        }
-        
+                                       
         .reset-btn {
             width: 100%;
             padding: 12px;
             background: #667eea;
-            color: white;
             border: none;
             border-radius: 6px;
             cursor: pointer;
@@ -358,7 +229,6 @@ Features</h1>
             position: relative;
             width: 100%;
             height: 100%;
-            background: #fafbfc;
             overflow: hidden;
         }
         
@@ -372,8 +242,6 @@ Features</h1>
         .feature-node {
             position: absolute;
             padding: 15px 25px;
-            background: white;
-            border: 3px solid #e0e0e0;
             border-radius: 50px;
             cursor: pointer;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -383,20 +251,7 @@ Features</h1>
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             z-index: 10;
         }
-        
-        .feature-node:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-        }
-        
-        .feature-node.selected {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border-color: #667eea;
-            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
-            transform: scale(1.1);
-        }
-        
+                
         .feature-node.compatible {
             border-color: #28a745;
             border-width: 3px;
@@ -433,113 +288,16 @@ Features</h1>
             transition: opacity 0.3s;
             z-index: 1;
         }
-        
-        .connection-line.visible {
-            opacity: 0.6;
-        }
-        
-        .legend {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-            font-size: 12px;
-            z-index: 100;
-        }
-        
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 8px;
-        }
-        
-        .legend-item:last-child {
-            margin-bottom: 0;
-        }
-        
-        .legend-color {
-            width: 30px;
-            height: 20px;
-            border-radius: 4px;
-            border: 2px solid;
-        }
-        
-        .legend-color.selected {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-color: #667eea;
-        }
-        
-        .legend-color.compatible {
-            background: white;
-            border-color: #28a745;
-            border-width: 3px;
-        }
-        
-        .legend-color.incompatible {
-            background: #e0e0e0;
-            border-color: #e0e0e0;
-            opacity: 0.3;
-        }
+                
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🗺️ Feature Compatibility Map</h1>
-            <p>Click features to build a compatible configuration path</p>
-        </div>
-        
-        <div class="content">
-            <div class="sidebar">
-                <h2>Selection Path</h2>
-                <p class="subtitle">Features selected in order</p>
-                
-                <div class="selected-path" id="selectedPath" style="display: none;">
-                    <h3>Current Path:</h3>
-                    <div id="pathList"></div>
-                </div>
-                
-                <div class="stats" id="stats">
-                    <div class="stats-row">
-                        <span class="stats-label">Selected:</span>
-                        <span class="stats-value" id="selectedCount">0</span>
-                    </div>
-                    <div class="stats-row">
-                        <span class="stats-label">Available:</span>
-                        <span class="stats-value" id="availableCount">8</span>
-                    </div>
-                    <div class="stats-row">
-                        <span class="stats-label">Total:</span>
-                        <span class="stats-value" id="totalCount">8</span>
-                    </div>
-                </div>
-                
-                <button class="reset-btn" onclick="resetSelection()">Start Over</button>
-            </div>
-            
+    <div class="container">        
+        <div class="content">            
             <div class="map-container" id="mapContainer">
                 <canvas id="canvas"></canvas>
                 <div id="featureNodes"></div>
-                
-                <div class="legend">
-                    <div class="legend-item">
-                        <div class="legend-color selected"></div>
-                        <span>Selected</span>
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-color compatible"></div>
-                        <span>Compatible</span>
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-color incompatible"></div>
-                        <span>Unavailable</span>
-                    </div>
                 </div>
-            </div>
         </div>
     </div>
 
@@ -594,7 +352,6 @@ Features</h1>
         }
         
         function selectFeature(featureId) {
-            // Check if feature is available
             if (!availableFeatures.includes(featureId)) return;
             
             selectedFeatures.push(featureId);
@@ -608,7 +365,6 @@ Features</h1>
                 return;
             }
             
-            // Find features compatible with ALL selected features
             availableFeatures = features
                 .map(f => f.id)
                 .filter(id => {
@@ -694,7 +450,6 @@ Features</h1>
             
             if (selectedFeatures.length === 0) return;
             
-            // Draw lines from selected features to available features
             selectedFeatures.forEach(selectedId => {
                 const selectedFeature = features.find(f => f.id === selectedId);
                 const selectedNode = featureElements[selectedId];
