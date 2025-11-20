@@ -1,13 +1,14 @@
 https://Malmahrouqi3.github.io/
 https://Malmahrouqi3.github.io/documentation/
 https://Malmahrouqi3.github.io/documentation/ContinuousBenchmarking.html
+https://Malmahrouqi3.github.io/documentation/Performance.html
 https://Malmahrouqi3.github.io/documentation/doxygen_crawl.html
+https://Malmahrouqi3.github.io/documentation/expectedPerformance.html
 https://Malmahrouqi3.github.io/documentation/graph_legend.html
 https://Malmahrouqi3.github.io/documentation/md_authors.html
 https://Malmahrouqi3.github.io/documentation/md_case.html
 https://Malmahrouqi3.github.io/documentation/md_docker.html
 https://Malmahrouqi3.github.io/documentation/md_examples.html
-https://Malmahrouqi3.github.io/documentation/md_expectedPerformance.html
 https://Malmahrouqi3.github.io/documentation/md_getting-started.html
 https://Malmahrouqi3.github.io/documentation/md_gpuParallelization.html
 https://Malmahrouqi3.github.io/documentation/md_papers.html
@@ -145,6 +146,7 @@ https://Malmahrouqi3.github.io/post_process/namespacemembers_func_u.html
 https://Malmahrouqi3.github.io/post_process/namespacemembers_g.html
 https://Malmahrouqi3.github.io/post_process/namespacemembers_h.html
 https://Malmahrouqi3.github.io/post_process/namespacemembers_i.html
+https://Malmahrouqi3.github.io/post_process/namespacemembers_j.html
 https://Malmahrouqi3.github.io/post_process/namespacemembers_k.html
 https://Malmahrouqi3.github.io/post_process/namespacemembers_l.html
 https://Malmahrouqi3.github.io/post_process/namespacemembers_m.html
@@ -166,6 +168,7 @@ https://Malmahrouqi3.github.io/post_process/namespacemembers_vars_f.html
 https://Malmahrouqi3.github.io/post_process/namespacemembers_vars_g.html
 https://Malmahrouqi3.github.io/post_process/namespacemembers_vars_h.html
 https://Malmahrouqi3.github.io/post_process/namespacemembers_vars_i.html
+https://Malmahrouqi3.github.io/post_process/namespacemembers_vars_j.html
 https://Malmahrouqi3.github.io/post_process/namespacemembers_vars_k.html
 https://Malmahrouqi3.github.io/post_process/namespacemembers_vars_l.html
 https://Malmahrouqi3.github.io/post_process/namespacemembers_vars_m.html
@@ -413,6 +416,7 @@ https://Malmahrouqi3.github.io/pre_process/namespacemembers_func_u.html
 https://Malmahrouqi3.github.io/pre_process/namespacemembers_g.html
 https://Malmahrouqi3.github.io/pre_process/namespacemembers_h.html
 https://Malmahrouqi3.github.io/pre_process/namespacemembers_i.html
+https://Malmahrouqi3.github.io/pre_process/namespacemembers_j.html
 https://Malmahrouqi3.github.io/pre_process/namespacemembers_k.html
 https://Malmahrouqi3.github.io/pre_process/namespacemembers_l.html
 https://Malmahrouqi3.github.io/pre_process/namespacemembers_m.html
@@ -434,6 +438,7 @@ https://Malmahrouqi3.github.io/pre_process/namespacemembers_vars_f.html
 https://Malmahrouqi3.github.io/pre_process/namespacemembers_vars_g.html
 https://Malmahrouqi3.github.io/pre_process/namespacemembers_vars_h.html
 https://Malmahrouqi3.github.io/pre_process/namespacemembers_vars_i.html
+https://Malmahrouqi3.github.io/pre_process/namespacemembers_vars_j.html
 https://Malmahrouqi3.github.io/pre_process/namespacemembers_vars_k.html
 https://Malmahrouqi3.github.io/pre_process/namespacemembers_vars_l.html
 https://Malmahrouqi3.github.io/pre_process/namespacemembers_vars_m.html
