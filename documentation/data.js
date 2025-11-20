@@ -15,7 +15,7 @@ window.BENCHMARK_DATA = {
             "username": "web-flow",
             "email": "noreply@github.com"
           },
-          "id": "Release v5.0.0",
+          "id": "v5.0.0",
           "message": "Release v5.0.0",
           "timestamp": "2025-10-28T21:44:51Z",
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/e2a8ccc6a426a0575a9fdb8752f1f85913f700f4"
@@ -67,7 +67,7 @@ window.BENCHMARK_DATA = {
             "username": "web-flow",
             "email": "noreply@github.com"
           },
-          "id": "Release v5.0.1",
+          "id": "v5.0.1",
           "message": "Release v5.0.1",
           "timestamp": "2025-10-28T22:00:00Z",
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/093adb218db7ff5e50e10bf5616d6a9c434935c9"
@@ -119,7 +119,7 @@ window.BENCHMARK_DATA = {
             "username": "web-flow",
             "email": "noreply@github.com"
           },
-          "id": "Release v5.0.2",
+          "id": "v5.0.2",
           "message": "Release v5.0.2",
           "timestamp": "2025-10-28T22:15:00Z",
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/2d21a9623bbf682715a6e6416682f589a1a34324"
@@ -171,7 +171,7 @@ window.BENCHMARK_DATA = {
             "username": "web-flow",
             "email": "noreply@github.com"
           },
-          "id": "Release v5.0.3",
+          "id": "v5.0.3",
           "message": "Release v5.0.3",
           "timestamp": "2025-10-28T22:30:00Z",
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/2d21a9623bbf682715a6e6416682f589a1a34324"
@@ -223,7 +223,7 @@ window.BENCHMARK_DATA = {
             "username": "web-flow",
             "email": "noreply@github.com"
           },
-          "id": "Release v5.0.4",
+          "id": "v5.0.4",
           "message": "Release v5.0.4",
           "timestamp": "2025-10-28T22:45:00Z",
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/2d21a9623bbf682715a6e6416682f589a1a34324"
@@ -275,7 +275,7 @@ window.BENCHMARK_DATA = {
             "username": "web-flow",
             "email": "noreply@github.com"
           },
-          "id": "Release v5.0.5",
+          "id": "v5.0.5",
           "message": "Release v5.0.5",
           "timestamp": "2025-11-20T17:40:00Z",
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/2d21a9623bbf682715a6e6416682f589a1a34324"
@@ -319,7 +319,7 @@ window.BENCHMARK_DATA = {
         "commit": {
           "author": {},
           "committer": {},
-          "id": "Release v5.0.6",
+          "id": "v5.0.6",
           "message": "Release v5.0.6",
           "timestamp": "2025-11-20T17:55:09Z",
           "url": ""
@@ -373,7 +373,7 @@ window.BENCHMARK_DATA = {
             "username": "web-flow",
             "email": "noreply@github.com"
           },
-          "id": "Release v5.0.0",
+          "id": "v5.0.0",
           "message": "Release v5.0.0",
           "timestamp": "2025-10-28T21:44:51Z",
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/093adb218db7ff5e50e10bf5616d6a9c434935c9"
@@ -425,7 +425,7 @@ window.BENCHMARK_DATA = {
             "username": "web-flow",
             "email": "noreply@github.com"
           },
-          "id": "Release v5.0.1",
+          "id": "v5.0.1",
           "message": "Release v5.0.1",
           "timestamp": "2025-10-28T22:00:00Z",
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/2d21a9623bbf682715a6e6416682f589a1a34324"
@@ -477,7 +477,7 @@ window.BENCHMARK_DATA = {
             "username": "web-flow",
             "email": "noreply@github.com"
           },
-          "id": "Release v5.0.2",
+          "id": "v5.0.2",
           "message": "Release v5.0.2",
           "timestamp": "2025-10-28T22:15:00Z",
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/2d21a9623bbf682715a6e6416682f589a1a34324"
@@ -529,7 +529,7 @@ window.BENCHMARK_DATA = {
             "username": "web-flow",
             "email": "noreply@github.com"
           },
-          "id": "Release v5.0.3",
+          "id": "v5.0.3",
           "message": "Release v5.0.3",
           "timestamp": "2025-10-28T22:30:00Z",
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/2d21a9623bbf682715a6e6416682f589a1a34324"
@@ -581,7 +581,7 @@ window.BENCHMARK_DATA = {
             "username": "web-flow",
             "email": "noreply@github.com"
           },
-          "id": "Release v5.0.4",
+          "id": "v5.0.4",
           "message": "Release v5.0.4",
           "timestamp": "2025-10-28T22:45:00Z",
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/2d21a9623bbf682715a6e6416682f589a1a34324"
@@ -625,7 +625,7 @@ window.BENCHMARK_DATA = {
         "commit": {
           "author": {},
           "committer": {},
-          "id": "Release v5.0.5",
+          "id": "v5.0.5",
           "message": "Release v5.0.5",
           "timestamp": "2025-11-20T17:40:00Z",
           "url": ""
@@ -669,7 +669,7 @@ window.BENCHMARK_DATA = {
         "commit": {
           "author": {},
           "committer": {},
-          "id": "Release v5.0.6",
+          "id": "v5.0.6",
           "message": "Release v5.0.6",
           "timestamp": "2025-11-20T17:55:09Z",
           "url": ""
