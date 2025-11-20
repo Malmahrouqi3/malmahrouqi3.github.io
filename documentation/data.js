@@ -42,12 +42,6 @@ window.BENCHMARK_DATA = {
             "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
-            "name": "igr",
-            "value": 46.73895839,
-            "unit": "s",
-            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
-          },
-          {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 109.5239685,
             "unit": "s",
@@ -90,12 +84,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "ibm",
             "value": 40.99144492,
-            "unit": "s",
-            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
-          },
-          {
-            "name": "igr",
-            "value": 46.73895839,
             "unit": "s",
             "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
@@ -146,12 +134,6 @@ window.BENCHMARK_DATA = {
             "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
-            "name": "igr",
-            "value": 46.73895839,
-            "unit": "s",
-            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
-          },
-          {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 109.898847,
             "unit": "s",
@@ -198,12 +180,6 @@ window.BENCHMARK_DATA = {
             "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
-            "name": "igr",
-            "value": 46.73895839,
-            "unit": "s",
-            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
-          },
-          {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 109.5362771,
             "unit": "s",
@@ -246,12 +222,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "ibm",
             "value": 41.39884705,
-            "unit": "s",
-            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
-          },
-          {
-            "name": "igr",
-            "value": 46.73895839,
             "unit": "s",
             "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
@@ -400,12 +370,6 @@ window.BENCHMARK_DATA = {
             "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
-            "name": "igr",
-            "value": 0.72979167,
-            "unit": "s",
-            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
-          },
-          {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 1.98198413,
             "unit": "s",
@@ -448,12 +412,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "ibm",
             "value": 0.59776654,
-            "unit": "s",
-            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
-          },
-          {
-            "name": "igr",
-            "value": 0.72979167,
             "unit": "s",
             "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
@@ -504,12 +462,6 @@ window.BENCHMARK_DATA = {
             "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
-            "name": "igr",
-            "value": 0.72979167,
-            "unit": "s",
-            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
-          },
-          {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 1.98828027,
             "unit": "s",
@@ -556,12 +508,6 @@ window.BENCHMARK_DATA = {
             "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
           {
-            "name": "igr",
-            "value": 0.72979167,
-            "unit": "s",
-            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
-          },
-          {
             "name": "viscous_weno5_sgb_acoustic",
             "value": 1.98334643,
             "unit": "s",
@@ -604,12 +550,6 @@ window.BENCHMARK_DATA = {
           {
             "name": "ibm",
             "value": 0.5878028,
-            "unit": "s",
-            "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
-          },
-          {
-            "name": "igr",
-            "value": 0.72979167,
             "unit": "s",
             "extra": "time steps: 21609\nruntime: 29275 s\nthreads: 1"
           },
