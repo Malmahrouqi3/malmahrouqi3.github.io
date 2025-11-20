@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763660680309,
+  "lastUpdate": 1763660683063,
   "repoUrl": "https://github.com/Malmahrouqi3/MFC-mo2",
   "entries": {
     "GT Phoenix (CPU)": [
@@ -21,6 +21,58 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/46ae0c686d9e9e22b9d8c13d6d0bc58afab28f91"
         },
         "date": 1763660678502,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "5eq_rk3_weno3_hllc",
+            "value": 29275,
+            "unit": "s/iter",
+            "extra": "iterations: 94877\ncpu: 29275 s\nthreads: 1"
+          },
+          {
+            "name": "hypo_hll",
+            "value": 32317,
+            "unit": "s/iter",
+            "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
+          },
+          {
+            "name": "ibm",
+            "value": 32317,
+            "unit": "s/iter",
+            "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
+          },
+          {
+            "name": "igr",
+            "value": 32317,
+            "unit": "s/iter",
+            "extra": "iterations: 21609\ncpu: 29275 s\nthreads: 1"
+          },
+          {
+            "name": "viscous_weno5_sgb_acoustic",
+            "value": 32724,
+            "unit": "s/iter",
+            "extra": "iterations: 21393\ncpu: 29275 s\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Mohammed S. Al-Mahrouqi",
+            "username": "Malmahrouqi3",
+            "email": "145478595+Malmahrouqi3@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "46ae0c686d9e9e22b9d8c13d6d0bc58afab28f91",
+          "message": "Update sed command to replace 'iterations' with 'time steps'",
+          "timestamp": "2025-11-03T07:09:45Z",
+          "url": "https://github.com/Malmahrouqi3/MFC-mo2/commit/46ae0c686d9e9e22b9d8c13d6d0bc58afab28f91"
+        },
+        "date": 1763660678978,
         "tool": "googlecpp",
         "benches": [
           {
